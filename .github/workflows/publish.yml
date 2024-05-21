@@ -1,0 +1,186 @@
+name: publish
+
+on:
+  workflow_dispatch
+
+jobs:
+
+  build1:
+    strategy:
+      fail-fast: false
+      matrix:
+        pkg: [aalib, ag, age, alacritty, alass, algernon, anchor-cli, antibody, apkeep, aptly, archiver, args, aria2, async++, autoconf, automake, autossh, autotools-setup, axel, b3sum, bandwhich, base16, base64, bash, basis_universal, bat, bazelisk, bc, bcrypt, bdw-gc, bear, berkeley-db, binaryen, bind, binocle, bison, bitcoin, bk, blake3, bmake, botan, bottom, boxes, brook, broot, bsdtar, bullet, byacc, bzip2, c-examples, caddy, cargo-c, cargo-deb, catch2, catimg, ccache, cereal, cflow, cgif, chafa, cheat, check, chezmoi, chicken, choose, cjson, cli11, cmake, cmocka, coreutils, cpio, cppcheck, cppunit, cpu_features, cpuinfo, crc32c, croc, crosstool-ng, crowbook, ctop, cue, curlie, cxxopts, d2, darkhttpd, dasel, dash, dav1d, delta, diffutils, distcc, dmalloc, dns2tcp, dnsmap, dog, dos2unix, doxygen, dua, duf, dufs, dust, easyutils, ed, eigen, elvish, epsilon, esbuild, ethereum, exa, exhale, faac, faad2, fcp, fd, fdk-aac, fdroidcl, fff, fftw, figlet, findutils, fish, flatbuffers, flex, flock, fselect, fsmon, fzf, fzy, garble, gawk, gbt, gdu, geographiclib, geos, gettext-tools, gh, git, git-lfs, gitui, glib-tools, glow, gm4, gmake, gn, gnu-barcode, gnu-which, gnupg, go-md2man, go-tools, godu, gogs, golang, gomobile, google-benchmark, google-highway, goreleaser, gosh, gotop, gotty, gox, gperf, gperftools, gping, gpsim, gputils, graphene, grep, grex, groff, gron, grpc-plugins, gsed, gtar, gzip, helix, helm, hexdump, hexyl, htop, htslib, hugo, hunspell, hurl, hwloc, hydroxide, hyperfine, ideviceinstaller, ixwebsocket, jbig2dec, jemalloc, jfrog-cli, joshuto, jpeg, jq, json-glib, jump, k9s, krb5, lame, lazygit, lcov, less, lf, libaec, libao, libavif, libb2, libbcrypt, libcaca, libcddb, libcdio, libcroco, libdeflate, libheif, libidn, libimagequant, libirecovery, libisoburn, liblinear, liblqr, libmagic, libmaxminddb, libmetalink, libmill, libphonenumber, libpipeline, libplacebo, libpsl, libqalculate, libraqm, libraw, libsmi, libspng, libtorrent-rasterbar, libunibreak, libupnp, libwebm, libxcrypt, libxml2-python3, libxml2-utils, libyuv, lighttpd, links, livego, llhttp, lmdb, lodepng, log4cplus, lolcat, lrzip, lsd, lsof, luau, lunatic, lunzip, lychee]
+
+    runs-on: macos-14
+
+    steps:
+      - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
+      - run: chmod + x xcpkg
+
+      - run: ./xcpkg env
+      - run: ./xcpkg setup
+      - run: ./xcpkg update
+      - run: ./xcpkg install MacOSX-14.0-arm64/${{ matrix.pkg }}
+
+      - name: pack
+        run: |
+          set -ex
+
+          for item in $(./xcpkg ls-installed)
+          do
+              ./xcpkg pack "$item"
+
+              PACKAGE_SUMMARY="$(./xcpkg info-installed "$item" summary)"
+              PACKAGE_WEB_URL="$(./xcpkg info-installed "$item" web-url)"
+              PACKAGE_VERSION="$(./xcpkg info-installed "$item" version)"
+
+              PACKAGE_NAME="${item#*/}"
+
+              PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
+
+              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+
+              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+
+              cat > "$PACKAGE_NAME.yml" <<EOF
+          summary: $PACKAGE_SUMMARY
+          webpage: $PACKAGE_WEB_URL
+          version: $PACKAGE_VERSION
+          bin-url: $PACKAGE_BIN_URL
+          bin-sha: $PACKAGE_BIN_SHA
+          EOF
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.pkg }}
+          path: |
+            ./*.tar.xz
+            ./*.yml
+
+  build2:
+    strategy:
+      fail-fast: false
+      matrix:
+        pkg: [lynx, lzip, lzop, magic_enum, mcfly, md4c, mdbook, mdcat, mediainfo, minisign, miniz, minizip, minizip-ng, mosh, mozjpeg, mpg123, mpir, msgpack-c, mujs, nano, nanomsg, nasm, navi, ncdu, neofetch, nghttp2, nginx, ngtcp2, ninja, nng, nnn, nsh, nspr, ntbtls, nushell, oat++, obfs4proxy, onefetch, open264, openal-soft, openblas, openlibm, openmpi, p11-kit, p7zip, packcc, patch, patchelf, pget, pigz, pjsip, pkg-config, pkgconf, plzip, pngquant, ppkg, progress, putty, pybind11, pystring, python3-setup, qemu, qpdf, quiche, quickjs, ragel, rang, ranger, rapidjson, rav1e, rclone, re2c, redis, rhash, ripgrep, rlwrap, rsass, rsync, rtmpdump, rtorrent, rust-analyzer, sassc, scc, sccache, sd, shaderc, shc, shell2http, shiori, simdjson, sjpeg, skcms, sl, slang, socat, soundtouch, speex, sqlite3, starship, stylua, supervisord, suricata, svn-lite, syncthing, sysinfo, szip, t1utils, taglib, tarlz, tbb, tbox, tcc, tcl-core, tcpdump, tdu, tealdeer, tectonic, tengo, terragrunt, theora, tig, timg, tinysearch, tinyxml2, tmux, tokei, toml++, toml11, tree, ttyd, ttygif, ttyrec, tweego, twolame, uctags, unbound, unixodbc, unrar, unzip, uppm, uppm@0.15.1, uppm@0.15.2, usrsctp, utf8.h, utfcpp, vala, vapoursynth, vegeta, vim, virustotal-cli, viu, volta, vsftpd, wasm3, wasmer, wasmtime, watchexec, watchman, wavpack, webhook, websocketpp, wget, wolfssl, wuzz, x264, x265, xh, xmake, xmlto, xorg-libpciaccess, xorg-libxcursor, xorg-libxdamage, xorg-libxmu, xorg-libxpresent, xorg-libxscrnsaver, xorg-libxshmfence, xorg-libxvmc, xorg-libxxf86vm, xorg-xinput, xorriso, xpup, xsltproc, xxd, yajl, yaml-cpp, yasm, youtubedr, yq, yyjson, z3, zeromq, zip, zlib-ng, zlog, zola, zopfli, zoxide, zsh, zsync]
+
+    runs-on: macos-14
+
+    steps:
+      - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
+      - run: chmod + x xcpkg
+
+      - run: ./xcpkg env
+      - run: ./xcpkg setup
+      - run: ./xcpkg update
+      - run: ./xcpkg install MacOSX-14.0-arm64/${{ matrix.pkg }}
+
+      - name: pack
+        run: |
+          set -ex
+
+          for item in $(./xcpkg ls-installed)
+          do
+              ./xcpkg pack "$item"
+
+              PACKAGE_SUMMARY="$(./xcpkg info-installed "$item" summary)"
+              PACKAGE_WEB_URL="$(./xcpkg info-installed "$item" web-url)"
+              PACKAGE_VERSION="$(./xcpkg info-installed "$item" version)"
+
+              PACKAGE_NAME="${item#*/}"
+
+              PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
+
+              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+
+              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+
+              cat > "$PACKAGE_NAME.yml" <<EOF
+          summary: $PACKAGE_SUMMARY
+          webpage: $PACKAGE_WEB_URL
+          version: $PACKAGE_VERSION
+          bin-url: $PACKAGE_BIN_URL
+          bin-sha: $PACKAGE_BIN_SHA
+          EOF
+          done
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.pkg }}
+          path: |
+            ./*.tar.xz
+            ./*.yml
+
+  publish:
+    needs: [build1, build2]
+
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: '*'
+          path: .
+          merge-multiple: true
+
+      - run: ls
+
+      - run: |
+          set -ex
+
+          TAGNAME="$(date +%Y.%m.%d)"
+
+          sed -i "s|@TAGNAME@|$TAGNAME|" *.yml
+
+          mv *.yml formula/
+
+          DIRNAME="uppm-formula-repository-macos-14.0-arm64-$TAGNAME"
+
+          install -d "$DIRNAME"
+
+          cp -r formula "$DIRNAME/"
+
+          tar cvJf "$DIRNAME.tar.xz" "$DIRNAME"
+
+          sha256sum *.tar.xz > sha256sums.txt
+
+          cat > notes.md <<EOF
+          these packages are created by [xcpkg](https://github.com/leleliu008/xcpkg).
+
+          ## Environment Variables
+
+          **following environment variables should be set for \`git\` package**
+
+          \`\`\`bash
+          export GIT_EXEC_PATH="\$GIT_INSTALL_DIR/libexec/git-core"
+          export GIT_TEMPLATE_DIR="\$GIT_INSTALL_DIR/share/git-core/templates"
+          \`\`\`
+
+          **following environment variables should be set for \`file\` package**
+
+          \`\`\`bash
+          export MAGIC="\$FILE_INSTALL_DIR/share/misc/magic.mgc"
+          \`\`\`
+
+          ## sha256sum
+
+          \`\`\`
+          $(cat sha256sums.txt)
+          \`\`\`
+          EOF
+
+          gh release create "$TAGNAME" *.tar.xz sha256sums.txt --title "$TAGNAME" --notes-file notes.md
+
+          git config --global user.name  "leleliu008"
+          git config --global user.email "leleliu008@gmail.com"
+
+          git pull
+
+          git add formula
+          git commit -m "release new version $TAGNAME"
+          git push origin master
