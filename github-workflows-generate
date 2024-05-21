@@ -16,7 +16,7 @@ sed -n '/^dep-pkg:/p' *.yml | cut -c10- | tr ' ' '\n' | sort | uniq > b
 
 SED="sed -e s|^-||"
 
-for item in librsvg
+for item in librsvg mozjpeg ffmpeg timg qemu tdu grpc-plugins groff
 do
     SED="$SED -e /^$item$/d"
 done
@@ -63,7 +63,7 @@ do
     echo "J=$J"
     echo "K=$K"
 
-    if [ "$J" = 256 ] || [ "$K" = "$PKGS_COUNT" ] ; then
+    if [ "$J" = 128 ] || [ "$K" = "$PKGS_COUNT" ] ; then
         J=0
         I=$(($I + 1))
 
