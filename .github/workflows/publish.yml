@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
-      - run: chmod + x xcpkg
+      - run: chmod +x xcpkg
 
       - run: ./xcpkg env
       - run: ./xcpkg setup
@@ -68,7 +68,7 @@ jobs:
 
     steps:
       - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
-      - run: chmod + x xcpkg
+      - run: chmod +x xcpkg
 
       - run: ./xcpkg env
       - run: ./xcpkg setup
@@ -121,7 +121,7 @@ jobs:
 
     steps:
       - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
-      - run: chmod + x xcpkg
+      - run: chmod +x xcpkg
 
       - run: ./xcpkg env
       - run: ./xcpkg setup
@@ -174,7 +174,7 @@ jobs:
 
     steps:
       - run: curl -LO https://raw.githubusercontent.com/leleliu008/xcpkg/master/xcpkg
-      - run: chmod + x xcpkg
+      - run: chmod +x xcpkg
 
       - run: ./xcpkg env
       - run: ./xcpkg setup
