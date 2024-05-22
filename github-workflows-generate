@@ -16,7 +16,7 @@ sed -n '/^dep-pkg:/p' *.yml | cut -c10- | tr ' ' '\n' | sort | uniq > b
 
 SED="sed -e s|^-||"
 
-for item in librsvg mozjpeg ffmpeg timg qemu tdu grpc-plugins groff
+for item in autossh mozjpeg tdu groff chisel krb5 libnetpbm vala unzip vapoursynth
 do
     SED="$SED -e /^$item$/d"
 done
