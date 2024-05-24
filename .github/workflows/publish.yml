@@ -38,7 +38,7 @@ jobs:
 
               PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
 
-              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+              PACKAGE_BIN_SHA="$(./xcpkg run sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
               PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
 
@@ -91,7 +91,7 @@ jobs:
 
               PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
 
-              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+              PACKAGE_BIN_SHA="$(./xcpkg run sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
               PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
 
@@ -144,7 +144,7 @@ jobs:
 
               PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
 
-              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+              PACKAGE_BIN_SHA="$(./xcpkg run sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
               PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
 
@@ -197,7 +197,7 @@ jobs:
 
               PACKAGE_FILENAME="$(ls $PACKAGE_NAME-$PACKAGE_VERSION-*.tar.xz)"
 
-              PACKAGE_BIN_SHA="$(sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
+              PACKAGE_BIN_SHA="$(./xcpkg run sha256sum "$PACKAGE_FILENAME" | cut -d ' ' -f1)"
 
               PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
 
