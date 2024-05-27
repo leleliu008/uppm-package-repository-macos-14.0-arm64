@@ -1,0 +1,5 @@
+summary: Compiler infrastructure and toolchain library for WebAssembly
+webpage: https://webassembly.org/
+version: 117
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/binaryen-117-macos-14.0-arm64.tar.xz
+bin-sha: 03439357e5adc568c0a01cbdfc54e07519ab75198b4a1f81b561360bc8c6cf54

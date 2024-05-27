@@ -1,0 +1,5 @@
+summary: Image processing and image analysis library
+webpage: http://www.leptonica.org/
+version: 1.82.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/leptonica-1.82.0-macos-14.0-arm64.tar.xz
+bin-sha: 748aa68b28c12d7a1699e4e282bbeff66f3e1da9b61b23a367c87f98906d86d1

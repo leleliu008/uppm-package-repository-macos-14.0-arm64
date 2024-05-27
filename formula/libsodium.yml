@@ -1,0 +1,5 @@
+summary: A modern, portable, easy to use crypto library
+webpage: https://libsodium.org
+version: 1.0.19
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libsodium-1.0.19-macos-14.0-arm64.tar.xz
+bin-sha: 07637f7b7f5648ccf2b07bd1890a1484c6e9abb301cbc214248af77eab58885d

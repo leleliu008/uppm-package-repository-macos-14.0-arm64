@@ -1,0 +1,5 @@
+summary: Library for handling OpenGL function pointer management
+webpage: https://github.com/anholt/libepoxy
+version: 1.5.10
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libepoxy-1.5.10-macos-14.0-arm64.tar.xz
+bin-sha: 05cbd3229706167e65bd2de9702e5ace2a65981f27dfd10e4b4f616ccedb66fc

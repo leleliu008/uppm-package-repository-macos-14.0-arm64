@@ -1,0 +1,5 @@
+summary: Universal Prebuild Package Manager
+webpage: https://github.com/leleliu008/uppm
+version: 0.15.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/uppm@0.15.2-0.15.2-macos-14.0-arm64.tar.xz
+bin-sha: cfdabd55e931eb65695321d9e579f5b1126b0bc2b7e47c4137f0c966c0bf84d8

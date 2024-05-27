@@ -1,0 +1,5 @@
+summary: Static reflection for enums (to string, from string, iteration) for modern C++
+webpage: https://github.com/Neargye/magic_enum
+version: 0.9.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/magic_enum-0.9.5-macos-14.0-arm64.tar.xz
+bin-sha: 0eca5054a19fa422d9893f2a9c4b095fbdc02dda8a7ae1380b5653d53df9e287

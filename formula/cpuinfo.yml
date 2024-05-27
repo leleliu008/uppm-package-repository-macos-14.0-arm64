@@ -1,0 +1,5 @@
+summary: CPU INFOrmation library
+webpage: https://github.com/pytorch/cpuinfo
+version: 2024.05.27
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/cpuinfo-2024.05.27-macos-14.0-arm64.tar.xz
+bin-sha: eecb18b1f3d803f0b0c6ecc8c09c43dec790558b45872e119ab4fdd27eb94007

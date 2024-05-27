@@ -1,0 +1,5 @@
+summary: A free, general-purpose data compression with a high compression ratio
+webpage: https://tukaani.org/xz
+version: 5.4.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/liblzma-5.4.6-macos-14.0-arm64.tar.xz
+bin-sha: 01c886dc026fc8d4b5ca1192151e9c8d0458aed1414983cf8e73e08cf76e28d7

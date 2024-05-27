@@ -1,0 +1,5 @@
+summary: Automatically generate simple man pages
+webpage: https://www.gnu.org/software/help2man
+version: 1.49.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/help2man-1.49.3-macos-14.0-arm64.tar.xz
+bin-sha: 30ab8963249383c55a9027e52946b979423919968aab7211351a1c07eed8b2dc

@@ -1,0 +1,5 @@
+summary: http_parser replacement
+webpage: https://llhttp.org/
+version: 9.1.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/llhttp-9.1.3-macos-14.0-arm64.tar.xz
+bin-sha: f3df71a3025e7ed4e393a6db93732c1389ebc19fc9c5f9f362f126a253e922bc

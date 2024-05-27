@@ -1,0 +1,5 @@
+summary: Indent and beautify Fortran sources and generate dependency information
+webpage: https://www.ratrabbit.nl/ratrabbit/findent/index.html
+version: 4.3.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/findent-4.3.3-macos-14.0-arm64.tar.xz
+bin-sha: 20953c8010b3e27e59a91429a33291cdd420fbfb3f8ac9f3e208f14d71ba6f5a

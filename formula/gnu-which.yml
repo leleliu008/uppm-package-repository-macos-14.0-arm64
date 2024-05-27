@@ -1,0 +1,5 @@
+summary: GNU implementation of which utility
+webpage: https://carlowood.github.io/which/index.html
+version: 2.21
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/gnu-which-2.21-macos-14.0-arm64.tar.xz
+bin-sha: 4211b70c790bee6e09bc642131ebe71bfb9e61aaf54b14b311d5bc8d05c26f9d

@@ -1,0 +1,5 @@
+summary: Official documentation format of the GNU project
+webpage: https://www.gnu.org/software/texinfo
+version: 7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/texinfo-7.1-macos-14.0-arm64.tar.xz
+bin-sha: fe783a8629027c7c0fcf1dcef256079a9212f399d0f1234ce08bbac037f5be53

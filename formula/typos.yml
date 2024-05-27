@@ -1,0 +1,5 @@
+summary: A source code spell checker
+webpage: https://github.com/crate-ci/typos
+version: 1.21.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/typos-1.21.0-macos-14.0-arm64.tar.xz
+bin-sha: e647a9525fff0cc5f9a3a62fc328b13d463dacbbb1b0611dfabda81141fe57de

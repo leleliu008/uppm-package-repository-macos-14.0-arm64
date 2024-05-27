@@ -1,0 +1,5 @@
+summary: Yet another cross-platform graphical process/system monitor
+webpage: https://clementtsang.github.io/bottom/
+version: 0.9.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/bottom-0.9.6-macos-14.0-arm64.tar.xz
+bin-sha: a35c722b292daf735a9fd4c95cac45b050a5091407c01c3b20c3d3e98dda2a75

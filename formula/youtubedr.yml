@@ -1,0 +1,5 @@
+summary: A command-line tool to download videos from youtube.com
+webpage: https://github.com/kkdai/youtube
+version: 2.10.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/youtubedr-2.10.1-macos-14.0-arm64.tar.xz
+bin-sha: c992903d001b91dfa86b01d096f2793603bc18b1abc073eed23585213289cbde

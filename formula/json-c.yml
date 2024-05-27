@@ -1,0 +1,5 @@
+summary: A JSON parser for C
+webpage: https://github.com/json-c/json-c
+version: 0.17
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/json-c-0.17-macos-14.0-arm64.tar.xz
+bin-sha: fd8b3a6cbd27f2a5c7b54966dca9a328da7970000bb499033837591fbc91d54c

@@ -1,0 +1,5 @@
+summary: A small utility to modify ELF files
+webpage: https://github.com/NixOS/patchelf
+version: 0.18.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/patchelf-0.18.0-macos-14.0-arm64.tar.xz
+bin-sha: 4d158b85845b9fc27e862e0f841928007b4d55c1e4ac9b188ad279abac8957ce

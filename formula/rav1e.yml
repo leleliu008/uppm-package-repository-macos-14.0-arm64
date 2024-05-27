@@ -1,0 +1,5 @@
+summary: The fastest and safest AV1 video encoder
+webpage: https://github.com/xiph/rav1e
+version: 0.7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/rav1e-0.7.1-macos-14.0-arm64.tar.xz
+bin-sha: e916d9baf6b47fa0afd5479b81d7fe742cb9f90f534040e45f9104de38ca8634
