@@ -1,0 +1,5 @@
+summary: Glorious Glasgow Haskell Compilation System
+webpage: https://haskell.org/ghc/
+version: 9.6.3
+bin-url: https://downloads.haskell.org/~ghc/9.6.3/ghc-9.6.3-aarch64-apple-darwin.tar.xz
+bin-sha: e1cdf458926b2eaf52d2a8287d99a965040ff9051171f5c3b7467049cf0eb213
