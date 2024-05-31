@@ -1,0 +1,5 @@
+summary: Command-line interface for Cabal and Hackage
+webpage: https://www.haskell.org/cabal/
+version: 3.10.2.0
+bin-url: https://downloads.haskell.org/~cabal/cabal-install-3.10.2.0/cabal-install-3.10.2.0-aarch64-darwin.tar.xz
+bin-sha: d2bd336d7397cf4b76f3bb0d80dea24ca0fa047903e39c8305b136e855269d7b
