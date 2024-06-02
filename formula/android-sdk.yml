@@ -3,7 +3,7 @@ webpage: https://developer.android.com/studio#command-tools
 version: 9477386
 bin-url: https://dl.google.com/android/repository/commandlinetools-mac-9477386_latest.zip
 bin-sha: 2072ffce4f54cdc0e6d2074d2f381e7e579b7d63e915c220b96a7db95b2900ee
-dep-pkg: jdk17 unzip
+dep-pkg: jdk17
 unpackd: cmdline-tools/latest
 install: |
     yes | cmdline-tools/latest/bin/sdkmanager 'platforms;android-30'
