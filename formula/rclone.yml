@@ -1,5 +1,5 @@
 summary: Rsync for cloud storage
 webpage: https://rclone.org/
 version: 1.66.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/rclone-1.66.0-macos-14.0-arm64.tar.xz
-bin-sha: 77674589a264d4feec5c52e255987b35893ba44cc09f2ff535e47f11526cf8c6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/rclone-1.66.0-macos-14.0-arm64.tar.xz
+bin-sha: 1545120fae81882eb2d0ae54e26b71b26a4a29ff092bc74094e2a7a3c7fb4de9

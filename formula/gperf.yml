@@ -1,5 +1,5 @@
 summary: Perfect hash function generator
 webpage: https://www.gnu.org/software/gperf
 version: 3.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/gperf-3.1-macos-14.0-arm64.tar.xz
-bin-sha: bf0b04d41cad490f9102189764b69d5cdc9b537773546e38224871d755677f47
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/gperf-3.1-macos-14.0-arm64.tar.xz
+bin-sha: 740772b1f9f4930f01f612b3126c9205a42d7c2d8877d4e99473fe0153df2a0d

@@ -1,0 +1,5 @@
+summary: Multi-platform library for OpenGL applications
+webpage: https://www.glfw.org/
+version: 3.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libglfw3-3.4-macos-14.0-arm64.tar.xz
+bin-sha: b4e44c585dee1191b8656e9de9660112c300e6179f66fdaf67cccd51897d6f8e

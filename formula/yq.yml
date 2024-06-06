@@ -1,5 +1,5 @@
 summary: A lightweight and portable command-line YAML processor
 webpage: https://mikefarah.gitbook.io/yq
 version: 4.44.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/yq-4.44.1-macos-14.0-arm64.tar.xz
-bin-sha: a2826f1a1c5bf7c6b28a3e8bae7dfe0f4be0d656343b03ddcf4c78d746b82c55
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/yq-4.44.1-macos-14.0-arm64.tar.xz
+bin-sha: 08abc056d60fb7a28ca05dcd7c258690c898b79a3ac5f6c51dfe46ba84c05440

@@ -1,0 +1,5 @@
+summary: Key-value storage library with ordered mapping
+webpage: https://github.com/google/leveldb
+version: 1.23
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libleveldb-1.23-macos-14.0-arm64.tar.xz
+bin-sha: c29337ebc929d449e1dab29baa7d702e34569c7b01bc10f8d3f9b8b695fbdd5e

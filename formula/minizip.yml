@@ -1,5 +1,5 @@
 summary: C library for zip/unzip via zLib
 webpage: https://www.winimage.com/zLibDll/minizip.html
-version: 1.3
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/minizip-1.3-macos-14.0-arm64.tar.xz
-bin-sha: 94a9e83e2b4a6a961b1af963eb10a3029e414a250fa56414d857df1f2f6c8cd0
+version: 1.3.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/minizip-1.3.1-macos-14.0-arm64.tar.xz
+bin-sha: 840bdd798ea099e672cf88f70cddedb78a5469674057d1b770e157baad23a5fc

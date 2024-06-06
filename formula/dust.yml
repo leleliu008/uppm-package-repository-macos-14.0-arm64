@@ -1,5 +1,5 @@
 summary: A more intuitive version of du(1) in rust
 webpage: https://github.com/bootandy/dust
 version: 1.0.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/dust-1.0.0-macos-14.0-arm64.tar.xz
-bin-sha: 21fd8c3ad96cdb98c2f8a54983bd8431a13d23e2d46a7b57ef38e231f032a0a4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/dust-1.0.0-macos-14.0-arm64.tar.xz
+bin-sha: 9d53907f36e317f242d111b344f3afda0fd17abbbaedc315ec76970ce0de5004

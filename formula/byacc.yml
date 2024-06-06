@@ -1,5 +1,5 @@
 summary: (Arguably) the best yacc variant
 webpage: https://invisible-island.net/byacc/
 version: 20240109
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/byacc-20240109-macos-14.0-arm64.tar.xz
-bin-sha: fe99aa8fb8308e49dc4a8664a6b4100f223f34cd1e00b6325ec317f877985121
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/byacc-20240109-macos-14.0-arm64.tar.xz
+bin-sha: 239373f3f4dcb8b0cf3b4264ab96f9a9dec0a4eccc35711e7c37170a2e5d5763

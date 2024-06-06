@@ -1,5 +1,5 @@
 summary: X.Org Inter-Client Exchange Library
 webpage: https://www.x.org/
 version: 1.1.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/xorg-libice-1.1.1-macos-14.0-arm64.tar.xz
-bin-sha: 2de2b3e3b39874689a5cef1079f5487ade11ca6113a15e2d53ec7edd76b30bf6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/xorg-libice-1.1.1-macos-14.0-arm64.tar.xz
+bin-sha: 1e32a0e8fe4735e13822f9cebe04f7f21a2aeb057072d4b9e87d3feb3bde2217

@@ -1,0 +1,5 @@
+summary: Open source computer vision library
+webpage: https://opencv.org/
+version: 4.9.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/opencv-4.9.0-macos-14.0-arm64.tar.xz
+bin-sha: dac93ef57421c95c00e570b4dfe83a7017d884533490102a38abc70c59d9a839

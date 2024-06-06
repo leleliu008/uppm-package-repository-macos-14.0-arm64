@@ -1,5 +1,5 @@
 summary: A lightweight, portable SSL library written in C
 webpage: https://www.wolfssl.com
 version: 5.7.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/wolfssl-5.7.0-macos-14.0-arm64.tar.xz
-bin-sha: 78b03d2d77aa4ebc532cd3172901c9cd536cdece6af161801f73a91b189cf4f1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/wolfssl-5.7.0-macos-14.0-arm64.tar.xz
+bin-sha: d3f34003c21c2ba29ed9132f1d3bb37dd73f1f9eabb52f22919832681daf69db

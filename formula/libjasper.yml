@@ -1,5 +1,5 @@
 summary: Library for manipulating JPEG-2000 images
 webpage: https://ece.engr.uvic.ca/~frodo/jasper/
 version: 4.2.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libjasper-4.2.4-macos-14.0-arm64.tar.xz
-bin-sha: 67fde9f5ce3b791da47b830b06a5d72e3c507856072868660f4d836eb22135a8
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libjasper-4.2.4-macos-14.0-arm64.tar.xz
+bin-sha: 772d2228be0261017cb99ddeebd138904eb392eb67c53e701d57916cb3f42ab3

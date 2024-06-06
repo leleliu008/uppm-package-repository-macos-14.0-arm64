@@ -1,5 +1,5 @@
 summary: CDDB server access library
 webpage: https://libcddb.sourceforge.io
 version: 1.3.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libcddb-1.3.2-macos-14.0-arm64.tar.xz
-bin-sha: 77c6a744f0279ea52d120ac2452411bef214e2131c4a9499e387ad765c2d89e8
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libcddb-1.3.2-macos-14.0-arm64.tar.xz
+bin-sha: 88100d478ea28f2b94e2e1932aec42ab7908418c9b62633861a9906284cd8a35

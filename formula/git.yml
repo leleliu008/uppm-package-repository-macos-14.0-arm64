@@ -1,5 +1,5 @@
 summary: A free and open source distributed version control system with speed and efficiency
 webpage: https://git-scm.com/
 version: 2.45.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/git-2.45.0-macos-14.0-arm64.tar.xz
-bin-sha: 8c4d7a1bee4ee1f4c002948efa4b664c266664b467afb9531ef7d716b469f134
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/git-2.45.0-macos-14.0-arm64.tar.xz
+bin-sha: f984a3efd978ae923d42ad962b0f446bb8ca4437da7d28a2e4a5b8a9266e7744

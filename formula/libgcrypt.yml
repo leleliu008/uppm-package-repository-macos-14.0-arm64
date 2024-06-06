@@ -1,5 +1,5 @@
 summary: Cryptographic library based on the code from GnuPG
 webpage: https://www.gnupg.org/related_software/libgcrypt/
-version: 1.10.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libgcrypt-1.10.2-macos-14.0-arm64.tar.xz
-bin-sha: c3acb96edd7d7efdab0da23b96ba917452eb4e6e9ba3ca6da354a07ff25d27db
+version: 1.10.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libgcrypt-1.10.3-macos-14.0-arm64.tar.xz
+bin-sha: 9ce15d7c6c4f1c9bc25197490d141131f7cb2d720ce95878ec2a058f49f70e16

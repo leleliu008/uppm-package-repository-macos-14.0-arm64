@@ -1,5 +1,5 @@
 summary: Portable UPnP development kit
 webpage: https://pupnp.sourceforge.io/
 version: 1.14.18
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libupnp-1.14.18-macos-14.0-arm64.tar.xz
-bin-sha: beac4ecfc146c97ddb5efe8756c1ae8b6c9825c85b0f639f934eac9e2b4b2b9a
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libupnp-1.14.18-macos-14.0-arm64.tar.xz
+bin-sha: b41f701191ae9d2732bebb45375841537a9f4ae279c644f5535e34e05370c05b

@@ -1,5 +1,5 @@
 summary: GNU grep, egrep and fgrep
 webpage: https://www.gnu.org/software/grep
 version: 3.11
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/grep-3.11-macos-14.0-arm64.tar.xz
-bin-sha: f310062554d2a9be01118450f5f68980ccf2ae88c0b4da189871af65a65f2cc1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/grep-3.11-macos-14.0-arm64.tar.xz
+bin-sha: eb9c1d8979951a66464382384ed5d349dc4dc72f9292f87849735fbd29ecde20

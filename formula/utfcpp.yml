@@ -1,5 +1,5 @@
 summary: UTF-8 with C++ in a Portable Way
 webpage: https://github.com/nemtrif/utfcpp
 version: 4.0.5
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/utfcpp-4.0.5-macos-14.0-arm64.tar.xz
-bin-sha: aa91648f915ff7e3ba40f074392513cad7670cb92d049d5089ae8ae90d576a72
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/utfcpp-4.0.5-macos-14.0-arm64.tar.xz
+bin-sha: 312f22586b3a472c68505813d7504cb64d1c0e4f480b8f2c7ffebcad4c819482

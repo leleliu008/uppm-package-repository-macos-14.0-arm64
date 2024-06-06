@@ -1,5 +1,5 @@
 summary: Text interface for Git repositories
 webpage: https://jonas.github.io/tig
-version: 2.5.9
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/tig-2.5.9-macos-14.0-arm64.tar.xz
-bin-sha: 64903040583ff0270d5978bb6438b437e4c865acc3229b559e480da38c8b3923
+version: 2.5.10
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/tig-2.5.10-macos-14.0-arm64.tar.xz
+bin-sha: d1947912bf67026aff87ea50a29f6123a7824131562d3bd04e55eb77898b2352

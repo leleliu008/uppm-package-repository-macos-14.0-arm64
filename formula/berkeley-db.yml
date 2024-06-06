@@ -1,5 +1,5 @@
 summary: High performance key/value database
 webpage: https://www.oracle.com/database/berkeley-db
 version: 18.1.40
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/berkeley-db-18.1.40-macos-14.0-arm64.tar.xz
-bin-sha: e703fba36a4a2ba74391da3c02a88044d5c2efb76b9f622c566bbb35a2b1eeea
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/berkeley-db-18.1.40-macos-14.0-arm64.tar.xz
+bin-sha: 132f8bc0b66400d9f2d0d31757e2fd562cf8c025a042c79d92f78596a41784c6

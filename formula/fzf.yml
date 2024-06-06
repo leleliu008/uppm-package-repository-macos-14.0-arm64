@@ -1,5 +1,5 @@
 summary: A command-line fuzzy finder written in Go
 webpage: https://github.com/junegunn/fzf
 version: 0.52.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/fzf-0.52.1-macos-14.0-arm64.tar.xz
-bin-sha: 2510672e118aea3866a8f2463bc4449c363fe3990739be4730cf3cfb511a9f55
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/fzf-0.52.1-macos-14.0-arm64.tar.xz
+bin-sha: 0b633edf47870a9d3f162a0a03cc74041db64dc44f61289e1e00e3427676873a

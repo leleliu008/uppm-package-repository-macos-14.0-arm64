@@ -1,0 +1,5 @@
+summary: Stable & Secure Tunnel based on KCP with N/M multiplexing and FEC
+webpage: https://github.com/xtaci/kcptun
+version: 20240107
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/kcptun-20240107-macos-14.0-arm64.tar.xz
+bin-sha: 4f3783538cb031673175fd66d27277800c98e1bb7e941e5d54acde22e700a75e

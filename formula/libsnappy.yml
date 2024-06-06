@@ -1,5 +1,5 @@
 summary: Compression/decompression library aiming for high speed
 webpage: https://google.github.io/snappy
 version: 1.2.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libsnappy-1.2.0-macos-14.0-arm64.tar.xz
-bin-sha: 5d2424a4915b9c9ed8504868d466b1d4220f0fc318c3139b9317cc5fa2d5bba2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libsnappy-1.2.0-macos-14.0-arm64.tar.xz
+bin-sha: 46b19728f95cbcc7d3c9d0bd7ba54c2cdd494e4d85cb2b3aaa6dc8e0360191f6

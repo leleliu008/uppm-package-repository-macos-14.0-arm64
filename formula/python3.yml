@@ -1,5 +1,5 @@
 summary: Interpreted, interactive, object-oriented programming language
 webpage: https://www.python.org/
 version: 3.11.9
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/python3-3.11.9-macos-14.0-arm64.tar.xz
-bin-sha: 32c67efb725ad2d9fb3d2aa41adb13acf4d8563f3faf362a157953af8d0c4b9c
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/python3-3.11.9-macos-14.0-arm64.tar.xz
+bin-sha: 4691c7782418b9a0211ab5ff20d271c75d095f669c844315ee7f89d2a11a95fa

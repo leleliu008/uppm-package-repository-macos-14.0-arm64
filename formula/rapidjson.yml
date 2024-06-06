@@ -1,5 +1,5 @@
 summary: A fast JSON parser and generator for C++ with SAX and DOM style APIs
 webpage: http://rapidjson.org/
 version: 1.1.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/rapidjson-1.1.0-macos-14.0-arm64.tar.xz
-bin-sha: e164797715d680873d3d792d5060e89966287ac13da9fb41c1a58910543b0a62
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/rapidjson-1.1.0-macos-14.0-arm64.tar.xz
+bin-sha: aaebf4243724d5b548a044928cc950d007c0457eaa06ca9c9f4c2f22bb8e7b7d

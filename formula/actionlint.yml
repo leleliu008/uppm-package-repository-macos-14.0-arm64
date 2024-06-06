@@ -1,5 +1,5 @@
 summary: Static checker for GitHub Actions workflow files
 webpage: https://rhysd.github.io/actionlint/
 version: 1.7.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/actionlint-1.7.0-macos-14.0-arm64.tar.xz
-bin-sha: 78f3575aaa6089f5d93e8be700a4e9c8429f626dfd68f7692b455f71fcc2b278
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/actionlint-1.7.0-macos-14.0-arm64.tar.xz
+bin-sha: d0b129f2c639e45dae437af9bb2e63b1f324708a954cc1c1e5bba52952377be6

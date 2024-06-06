@@ -1,0 +1,5 @@
+summary: DNS library written in C
+webpage: https://nlnetlabs.nl/projects/ldns/
+version: 1.8.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libldns-1.8.3-macos-14.0-arm64.tar.xz
+bin-sha: 63378465bbfad51340e6f673a64ed41b1c7be8bcfa7b274b46bc6849940d3cde

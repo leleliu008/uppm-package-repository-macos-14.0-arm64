@@ -1,0 +1,5 @@
+summary: Colorized pattern-matching log tail utility
+webpage: https://taskwarrior.org/docs/clog/
+version: 1.3.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/clog-1.3.0-macos-14.0-arm64.tar.xz
+bin-sha: 5e572dfe21cd9d1043bcaf599a778e4aef3424ca17f897c47200ec5930ecbd18

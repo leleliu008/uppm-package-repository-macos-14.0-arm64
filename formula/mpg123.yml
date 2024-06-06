@@ -1,5 +1,5 @@
 summary: MP3 player
 webpage: https://www.mpg123.de/
 version: 1.32.6
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/mpg123-1.32.6-macos-14.0-arm64.tar.xz
-bin-sha: f160542e43b144d69c45698b191631ed3dbd818ce63ecb4629e2c3a8c1e2154b
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/mpg123-1.32.6-macos-14.0-arm64.tar.xz
+bin-sha: 0874db409d9b44c31e1cadf959212a1641ad92165487c9c8695841256272660a

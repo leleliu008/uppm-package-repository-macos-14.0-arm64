@@ -1,5 +1,5 @@
 summary: A library for complex text layout
 webpage: https://github.com/HOST-Oman/libraqm
 version: 0.10.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libraqm-0.10.1-macos-14.0-arm64.tar.xz
-bin-sha: 5beac3e92231b78a83ac681e8469677efa75c9e848c365ff5c30623b38d88fa7
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libraqm-0.10.1-macos-14.0-arm64.tar.xz
+bin-sha: 13163ac34d6355a7513d451e66a878caea6de020088edcccaf3a57783099cbcf

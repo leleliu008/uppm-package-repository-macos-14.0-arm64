@@ -1,5 +1,5 @@
-summary: A C library for reading and writing PNG format files with a focus on security and ease of use.
+summary: A C library for reading and writing PNG format files with a focus on security and ease of use
 webpage: https://libspng.org/
 version: 0.7.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.05.27/libspng-0.7.4-macos-14.0-arm64.tar.xz
-bin-sha: dee844622544b39734c8f493a9fbb7825bb16504553e6f249f8aed800cd7371a
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libspng-0.7.4-macos-14.0-arm64.tar.xz
+bin-sha: c5579c9d873b9f2f1e8a05f43a0954ba16d16965870aa7e8edd09758f4984f78
