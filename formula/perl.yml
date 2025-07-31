@@ -1,5 +1,5 @@
 summary: Highly capable, feature-rich programming language
 webpage: https://www.perl.org/
 version: 5.40.2
-bin-url: https://github.com/fpliu1214/perl-distribution/releases/download/5.40.2/perl-5.40.2-macos-14.0-arm64.tar.xz
-bin-sha: b46cbeacfc5ac104a67c4f8358fe2559155fb8eec4acd408afc6c7013eef1639
+bin-url: https://github.com/leleliu008/perl-distribution/releases/download/5.40.2/perl-5.40.2-macos-14.0-arm64.tar.xz
+bin-sha: ce86439c1840423f2abfc7331d35bf1ad2e7fdf4bd18c64d220764f2872c61ac
