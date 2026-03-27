@@ -88,11 +88,11 @@ do
     if [ "$J" = 128 ] || [ "$K" = "$PKGS_COUNT" ] ; then
         gsed -e "s|buildN|build$I|" -e "s|ITEMS|${ITEMS#,}|" build.yml >> publish.yml
 
-        I=$(($I + 1))
-        J=0
-
         ITEMS=
         NEEDS="$NEEDS, build$I"
+
+        I=$(($I + 1))
+        J=0
     fi
 done
 

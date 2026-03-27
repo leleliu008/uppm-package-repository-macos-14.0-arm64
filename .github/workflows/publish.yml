@@ -434,7 +434,7 @@ jobs:
 
 
   publish:
-    needs: [build0, build2, build3, build4, build5, build6, build7]
+    needs: [build0, build1, build2, build3, build4, build5, build6]
 
     runs-on: ubuntu-latest
 
