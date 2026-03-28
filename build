@@ -27,24 +27,21 @@
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 

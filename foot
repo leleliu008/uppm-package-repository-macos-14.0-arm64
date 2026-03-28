@@ -1,0 +1,61 @@
+    runs-on: ubuntu-latest
+
+    env:
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/download-artifact@v8
+        with:
+          pattern: '*'
+          path: .
+          merge-multiple: true
+
+      - run: ls
+
+      - run: |
+          set -ex
+
+          TS="$(date +%Y.%m.%d)"
+
+          I=0
+          J=0
+
+          for f in *.yml
+          do
+            I="$("$I" + 1)"
+
+            if [ "$I" -eq 1 ] || [ "$I" -eq 1001 ] ; then
+              J="$("$J" + 1)"
+
+              TAGNAME="$TS.$J"
+
+              gh release create "$TAGNAME" --title "$TAGNAME" --notes 'These packages are created by [xcpkg](https://github.com/leleliu008/xcpkg)'
+
+            fi
+
+            TARBALL_FILENAME="$(sed -n '/bin-url: /p' "$f" | cut -c10-)"
+            TARBALL_URL="https://github.com/${{ github.repository }}/releases/download/$TAGNAME/$TARBALL_FILENAME"
+
+            sed -i "/bin-url: /c bin-url: $TARBALL_URL" "$f"
+
+            sleep 1s
+
+            gh release upload "$TAGNAME" "$TARBALL_FILENAME"
+          done
+
+          #####################################################
+
+          mv *.yml formula/
+
+          #####################################################
+
+          git config --global user.name  "leleliu008"
+          git config --global user.email "leleliu008@gmail.com"
+
+          git pull
+
+          git add formula
+          git commit -m "release new version $TS"
+          git push origin master

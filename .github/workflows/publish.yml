@@ -9,7 +9,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [ swiftformat, swiftdraw, swiftly, unxip, xcbeautify, swift-format, swift-section, swiftlint, swift-sh, mist-cli, swift-outdated]
+        pkg: [ nodejs@24, simplex-chat, psc-package, swiftformat, swiftdraw, swiftly, unxip, xcbeautify, swift-format, swift-section, swiftlint, swift-sh, mist-cli, swift-outdated]
 
     runs-on: macos-26
 
@@ -34,24 +34,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -96,24 +93,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -158,24 +152,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -220,24 +211,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -257,7 +245,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [ libtalloc, libtbox, libtextstyle, libthai, libtinyxml2, libtool, libtorrent-rasterbar, libtre, libtwolame, libultrahdr, libunbound, libupnp, libusrsctp, libuuid, libvips, libwasmtime, libwavpack, libwebm, libwmf, libwolfssh, libxls, libxml2-python3, libyajl, libyaml-cpp, libyuv, libyyjson, libzim, libzlog, libzzip, lighttpd, links, livego, llhttp, llvm+clang+lld@18, llvm+clang+lld@20, llvm+clang@18, llvm@16, llvm@17, llvm@18, llvm@19, llvm@20, llvm@21, lmdb, lodepng, log4cplus, lolcat, lrzip, lsd, lsof, lua, luajit, luau, lunatic, lunzip, lychee, lynx, lz4, lzip, lzo, lzop, magic_enum, mandoc, marisa, mawk, mbedtls@4, mcfly, md4c, mdbook, mdcat, mediainfo, mesa, minisign, mksh, mold, mole, mosh, mozjpeg, mozjpeg2, mpg123, mpv, msgpack-c, mujs, mupdf, nano, nanomsg, nap, nasm, navi, ncdu, neofetch, netcat, nethogs, netpbm, nghttp2, nghttp3, nginx, ngtcp2, nim, ninja, nnn, nodejs@22, nodejs@23, nodejs@24, nsh, ntbtls, nuclei, nushell, oat++, obfs4proxy, oggz, oha, oksh, ollama, onefetch, openal-soft, opencc, opencolorio, opencv, openfst, openjpeg, openlibm, openmpi, openslide, openssh, openssl, ops, opus-tools, orbiton]
+        pkg: [ libtalloc, libtbox, libtextstyle, libthai, libtinyxml2, libtool, libtorrent-rasterbar, libtre, libtwolame, libultrahdr, libunbound, libupnp, libusrsctp, libuuid, libvips, libwasmtime, libwavpack, libwebm, libwmf, libwolfssh, libxcursor, libxdamage, libxls, libxml2-python3, libxmu, libxpresent, libxscrnsaver, libxshmfence, libxvmc, libxxf86vm, libyajl, libyaml-cpp, libyuv, libyyjson, libzim, libzlog, libzzip, lighttpd, links, livego, llhttp, llvm+clang+lld@18, llvm+clang+lld@20, llvm+clang@18, llvm@16, llvm@17, llvm@18, llvm@19, llvm@20, llvm@21, lmdb, lodepng, log4cplus, lolcat, lrzip, lsd, lsof, lua, luajit, luau, lunatic, lunzip, lychee, lynx, lz4, lzip, lzo, lzop, magic_enum, mandoc, marisa, mawk, mbedtls@4, mcfly, md4c, mdbook, mdcat, mediainfo, mesa, minisign, mksh, mold, mole, mosh, mozjpeg, mozjpeg2, mpg123, mpv, msgpack-c, mujs, mupdf, nano, nanomsg, nap, nasm, navi, ncdu, neofetch, netcat, nethogs, netpbm, nghttp2, nghttp3, nginx, ngtcp2, nim, ninja, nnn, nodejs@20, nodejs@22, nsh, ntbtls, nuclei, nushell, oat++, obfs4proxy, oggz, oha, oksh, ollama, onefetch, openal-soft, opencc, opencolorio, opencv, openfst, openjpeg, openlibm]
 
     runs-on: macos-14
 
@@ -282,24 +270,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -319,7 +304,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [ orcc, osx-cpu-temp, ouch, oxlint, p7zip, packcc, pandoc, patch, patchelf, pax, pbzip2, pcapplusplus, pcre2, pegof, pget, pigz, pjsip, pkg-config, pkgconf, plog, plzip, png, pngcheck, pngquant, pngsplit, poco, ppkg, prek, procs, progress, proj, proj7, proto-cli, psc-package, psimd, pup, putty, pv, pybind11, python@3.10, python@3.11, python@3.12, python@3.13, python@3.9, q, qalc, qbittorrent-cli, qemu, qman, qpdf, qrencode, quickjs, ragel, rang, ranger, rapidjson, rav1e, rbspy, rclone, re2c, readpe, redis, restic, resvg, rhash, ripgrep, ripgrep-all, rlwrap, rover, rsass, rsign2, rsync, rtmpdump, rtorrent, ruby, ruff, rust-analyzer, rustic, rustup-init, samtools, samurai, sassc, scc, sccache, scdoc, screenresolution, sd, semtools, shc, shell2http, shellcheck, shellharden, shiori, signify, silicon, simplex-chat, sl, slang, slumber, sndfile, socat, soundtouch, speex, spirv-tools, sq, sqldiff, sqlite-analyzer, sqlite3, starship, stew, sttr, stwolame, stylua, subfinder, superfile, supervisord, suricata, svn-lite, svt-av1, swc, swig, syncthing, sysinfo, szip, t1utils, taglib, tarlz, tcc]
+        pkg: [ openmpi, openslide, openssh, openssl, ops, opus-tools, orbiton, orcc, osx-cpu-temp, ouch, oxlint, p7zip, packcc, pandoc, patch, patchelf, pax, pbzip2, pcapplusplus, pcre2, pegof, pget, pigz, pjsip, pkg-config, pkgconf, plog, plzip, png, pngcheck, pngquant, pngsplit, poco, ppkg, prek, procs, progress, proj, proj7, proto-cli, psimd, pup, putty, pv, pybind11, python@3.10, python@3.11, python@3.12, python@3.13, python@3.9, q, qalc, qbittorrent-cli, qemu, qman, qpdf, qrencode, quickjs, ragel, rang, ranger, rapidjson, rav1e, rbspy, rclone, re2c, readpe, redis, restic, resvg, rhash, ripgrep, ripgrep-all, rlwrap, rover, rsass, rsign2, rsync, rtmpdump, rtorrent, ruby, ruff, rust-analyzer, rustic, rustup-init, samtools, samurai, sassc, scc, sccache, scdoc, screenresolution, sd, semtools, shc, shell2http, shellcheck, shellharden, shiori, signify, silicon, sl, slang, slumber, sndfile, socat, soundtouch, speex, spirv-tools, sq, sqldiff, sqlite-analyzer, sqlite3, starship, stew, sttr, stwolame, stylua, subfinder, superfile, supervisord, suricata, svn-lite, svt-av1, swc, swig, syncthing, sysinfo]
 
     runs-on: macos-14
 
@@ -344,24 +329,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -381,7 +363,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        pkg: [ tcpdump, tcping, tealdeer, tectonic, tengo, termsvg, terragrunt, tesseract, texinfo, tic, tiff, tig, timg, tinysearch, tldr, tlrc, tmux, tokei, toml++, toml11, tor, torsocks, tre, tree, tree-sitter, trietool, trivy, ttyd, ttygif, ttyrec, tut, tweego, twolame, typos, uctags, unbound, unixodbc, unrar, unzip, update-mime-database, uppm, uppm@0.15.2, uppm@0.15.3, uppm@0.15.4, upx, utf8.h, util-linux, uutils-coreutils, uv, vala, valijson, vapoursynth, vegeta, virustotal-cli, viu, volta, vorbis-tools, vsftpd, wabt, wasm3, wasmer, wasmtime, watchexec, watchman, wavpack, webhook, webp, websocketpp, wget, whois, wiki-tui, woff2, wolfssh, wuzz, x264, x265, xcpkg, xdotool, xh, xmake, xmlto, xmlutils, xmlwf, xorg-libxcursor, xorg-libxdamage, xorg-libxmu, xorg-libxpresent, xorg-libxscrnsaver, xorg-libxshmfence, xorg-libxvmc, xorg-libxxf86vm, xorg-xinput, xorriso, xpup, xsltproc, xsv, xxd, xxhash, xz, yasm, yazi, ycm, youtubedr, yq, zellij, zeta, zigmod, zip, zizmor, zlib, zlib-ng, zls, zola, zopfli, zoxide, zsh, zstd, zsync]
+        pkg: [ szip, t1utils, taglib, tarlz, tcc, tcpdump, tcping, tealdeer, tectonic, tengo, termsvg, terragrunt, tesseract, texinfo, tic, tiff, tig, timg, tinysearch, tldr, tlrc, tmux, tokei, toml++, toml11, tor, torsocks, tre, tree, tree-sitter, trietool, trivy, ttyd, ttygif, ttyrec, tut, tweego, twolame, typos, uctags, unbound, unixodbc, unrar, unzip, update-mime-database, uppm, uppm@0.15.2, uppm@0.15.3, uppm@0.15.4, upx, utf8.h, util-linux, uutils-coreutils, uv, vala, valijson, vapoursynth, vegeta, virustotal-cli, viu, volta, vorbis-tools, vsftpd, wabt, wasm3, wasmer, wasmtime, watchexec, watchman, wavpack, webhook, webp, websocketpp, wget, whois, wiki-tui, woff2, wolfssh, wuzz, x264, x265, xcpkg, xdotool, xh, xinput, xmake, xmlto, xmlutils, xmlwf, xorriso, xpup, xsltproc, xsv, xxd, xxhash, xz, yasm, yazi, ycm, youtubedr, yq, zellij, zeta, zigmod, zip, zizmor, zlib, zlib-ng, zls, zola, zopfli, zoxide, zsh, zstd, zsync]
 
     runs-on: macos-14
 
@@ -406,24 +388,21 @@ jobs:
           do
               bin/xcpkg bundle "$item" .tar.xz
 
-              PACKAGE_FILENAME="$(ls *.tar.xz)"
-
               PACKAGE_SUMMARY="$(bin/xcpkg show "$item" summary)"
               PACKAGE_WEB_URL="$(bin/xcpkg show "$item" web-url)"
               PACKAGE_VERSION="$(bin/xcpkg show "$item" version)"
 
-              PACKAGE_NAME="${item#*/}"
-              PACKAGE_NAME="${PACKAGE_NAME%@*}"
+              PACKAGE_FILENAME="$(ls *.tar.xz)"
 
               PACKAGE_BIN_SHA="$(bin/xcpkg util sha256sum "$PACKAGE_FILENAME")"
 
-              PACKAGE_BIN_URL="https://github.com/${{ github.repository }}/releases/download/@TAGNAME@/$PACKAGE_FILENAME"
+              PACKAGE_NAME="${item#*/}"
 
               cat > "$PACKAGE_NAME.yml" <<EOF
           summary: $PACKAGE_SUMMARY
           webpage: $PACKAGE_WEB_URL
           version: $PACKAGE_VERSION
-          bin-url: $PACKAGE_BIN_URL
+          bin-url: $PACKAGE_FILENAME
           bin-sha: $PACKAGE_BIN_SHA
           EOF
 
@@ -462,27 +441,39 @@ jobs:
       - run: |
           set -ex
 
-          TAGNAME="$(date +%Y.%m.%d)"
+          TS="$(date +%Y.%m.%d)"
 
-          sed -i "s|@TAGNAME@|$TAGNAME|" *.yml
+          I=0
+          J=0
+
+          for f in *.yml
+          do
+            I="$("$I" + 1)"
+
+            if [ "$I" -eq 1 ] || [ "$I" -eq 1001 ] ; then
+              J="$("$J" + 1)"
+
+              TAGNAME="$TS.$J"
+
+              gh release create "$TAGNAME" --title "$TAGNAME" --notes 'These packages are created by [xcpkg](https://github.com/leleliu008/xcpkg)'
+
+            fi
+
+            TARBALL_FILENAME="$(sed -n '/bin-url: /p' "$f" | cut -c10-)"
+            TARBALL_URL="https://github.com/${{ github.repository }}/releases/download/$TAGNAME/$TARBALL_FILENAME"
+
+            sed -i "/bin-url: /c bin-url: $TARBALL_URL" "$f"
+
+            sleep 1s
+
+            gh release upload "$TAGNAME" "$TARBALL_FILENAME"
+          done
+
+          #####################################################
 
           mv *.yml formula/
 
-          DIRNAME="uppm-formula-repository-macos-14.0-arm64-$TAGNAME"
-
-          install -d "$DIRNAME"
-
-          cp -r formula "$DIRNAME/"
-
-          tar cvJf "$DIRNAME.tar.xz" "$DIRNAME"
-
-          gh release create "$TAGNAME" --title "$TAGNAME" --notes 'These packages are created by [xcpkg](https://github.com/leleliu008/xcpkg)'
-
-          for f in *.tar.xz
-          do
-            sleep 1s
-            gh release upload "$TAGNAME" "$f"
-          done
+          #####################################################
 
           git config --global user.name  "leleliu008"
           git config --global user.email "leleliu008@gmail.com"
@@ -490,5 +481,5 @@ jobs:
           git pull
 
           git add formula
-          git commit -m "release new version $TAGNAME"
+          git commit -m "release new version $TS"
           git push origin master
