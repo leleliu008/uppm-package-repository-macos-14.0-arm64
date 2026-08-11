@@ -497,10 +497,13 @@ jobs:
 
       - run: ls
 
+      - id: version
+        run: |
+          TS="$(date +%Y.%m.%d)"
+          printf 'VERSION=%s\n' "$TS" >> "$GITHUB_OUTPUT"
+
       - run: |
           set -ex
-
-          TS="$(date +%Y.%m.%d)"
 
           I=0
           J=0
@@ -512,7 +515,7 @@ jobs:
             if [ "$I" -eq 1 ] || [ "$I" -eq 1001 ] ; then
               J="$(("$J" + 1))"
 
-              TAGNAME="$TS.$J"
+              TAGNAME="${{ steps.version.outputs.VERSION }}.$J"
 
               gh release create "$TAGNAME" --title "$TAGNAME" --notes 'These packages are created by [xcpkg](https://github.com/leleliu008/xcpkg)'
 
@@ -528,17 +531,13 @@ jobs:
             gh release upload "$TAGNAME" "$TARBALL_FILENAME"
           done
 
-          #####################################################
+      - run: git config --global user.name  leleliu008
+      - run: git config --global user.email leleliu008@gmail.com
 
-          mv *.yml formula/
+      - run: git pull
 
-          #####################################################
+      - run: mv *.yml formula/
 
-          git config --global user.name  "leleliu008"
-          git config --global user.email "leleliu008@gmail.com"
-
-          git pull
-
-          git add formula
-          git commit -m "release new version $TS"
-          git push origin master
+      - run: git add formula
+      - run: git commit -m "release new version ${{ steps.version.outputs.VERSION }}"
+      - run: git push origin master
