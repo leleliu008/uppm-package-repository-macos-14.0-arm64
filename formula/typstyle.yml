@@ -1,0 +1,5 @@
+summary: A beautiful and reliable code formatter for Typst
+webpage: https://enter-tainer.github.io/typstyle/
+version: 0.14.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/typstyle-0.14.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: 7ffd25781310749519b93893105659b98786c7eab3deda0ac1be9c17b2023bbe

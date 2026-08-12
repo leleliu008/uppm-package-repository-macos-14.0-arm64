@@ -1,0 +1,5 @@
+summary: Build system designed for scalability, portability, and concision
+webpage: http://projects.camlcity.org/projects/omake.html
+version: 0.10.7
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/omake-0.10.7-MacOSX-14.0-arm64.tar.xz
+bin-sha: dd7df3f6132a4cd9f6290b888b88c3e02e88fb2cd39f587360854aadf7c96054

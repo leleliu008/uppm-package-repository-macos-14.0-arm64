@@ -1,0 +1,5 @@
+summary: Watch files and take action when they change
+webpage: https://github.com/facebook/watchman
+version: 2026.01.12.00
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/watchman-2026.01.12.00-MacOSX-14.0-arm64.tar.xz
+bin-sha: 4d2fc6883316c354e37cfbf740ade7731ed68f81540726625b12243d8cf7225d

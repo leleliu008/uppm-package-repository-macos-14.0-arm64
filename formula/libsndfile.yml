@@ -1,5 +1,5 @@
-summary: C library for files containing sampled sound
+summary: C library for reading and writing files containing sampled sound (such as MS Windows WAV and the Apple/SGI AIFF format)
 webpage: http://libsndfile.github.io/libsndfile/
 version: 1.2.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libsndfile-1.2.2-macos-14.0-arm64.tar.xz
-bin-sha: 65cdb0c04ef41280720103a0dbcdf3d69264aecc687dc03b0febf9d7c72d36af
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libsndfile-1.2.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 181cdd41d3468a953f8dba69c58febbffbaf0d1761d219d955d48892bc6b3c04

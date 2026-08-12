@@ -1,0 +1,5 @@
+summary: A shared library that implements scrypt() functionality - a replacement for bcrypt()
+webpage: https://github.com/technion/libscrypt
+version: 1.22
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libscrypt-1.22-MacOSX-14.0-arm64.tar.xz
+bin-sha: ce1f013590dd90d7d759ca9de6a7fac3d826da4f89c5a444cc8c729f52954a33

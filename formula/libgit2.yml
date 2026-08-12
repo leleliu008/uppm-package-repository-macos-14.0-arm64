@@ -1,5 +1,5 @@
 summary: C library of Git core methods that is re-entrant and linkable
 webpage: https://libgit2.github.com
-version: 1.7.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libgit2-1.7.2-macos-14.0-arm64.tar.xz
-bin-sha: f6f39933b5e59897cf14abfdbce9b57fbe113968e4dea616bdf63b85f8dbf49c
+version: 1.9.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libgit2-1.9.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 28d0ed4d9685f0eb3e85999aa1550144f3b7c8fa14ba804aff54bb7e09622c93

@@ -1,5 +1,5 @@
 summary: Blazing fast terminal-ui for git written in rust
-webpage: https://github.com/extrawurst/gitui
-version: 0.26.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/gitui-0.26.2-macos-14.0-arm64.tar.xz
-bin-sha: b98240f423a4d2335e3a1f356350c90ecf479fddbabeaefff18b2d5e0b9a9fa0
+webpage: https://github.com/gitui-org/gitui
+version: 0.28.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gitui-0.28.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 3af990603aa2d8f48f7c872c130ad25d5b01c53c3a838480324af8aa67a2acef

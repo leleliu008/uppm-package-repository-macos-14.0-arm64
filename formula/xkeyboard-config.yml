@@ -1,5 +1,5 @@
 summary: Keyboard configuration database for the X Window System
 webpage: https://www.freedesktop.org/wiki/Software/XKeyboardConfig/
-version: 2.37
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/xkeyboard-config-2.37-macos-14.0-arm64.tar.xz
-bin-sha: 1caa3e391dddc36c1baf1d76840d5de620b6b960a94a55cb8f67860447a3e472
+version: 2.47
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/xkeyboard-config-2.47-MacOSX-14.0-arm64.tar.xz
+bin-sha: 3ebe269ae6d73cc9fca64406de1fc1905d2e0cf43a5d7048e2538c96e8689743

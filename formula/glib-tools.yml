@@ -1,5 +1,5 @@
 summary: A collection of tools for glib
 webpage: https://developer.gnome.org/glib
-version: 2.80.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/glib-tools-2.80.0-macos-14.0-arm64.tar.xz
-bin-sha: cd19ba3d63e7ea9d1cd199e4cc2d75dcd6e2deb522a7daf4c1a1f3cb273f0e97
+version: 2.86.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/glib-tools-2.86.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: a11b21644cdb7d0c0dc3009899b0a3dcfc85f875a84aa889427bb8ed6e8780f6

@@ -1,0 +1,5 @@
+summary: A simple and easy to use Wikipedia Text User Interface
+webpage: https://github.com/Builditluc/wiki-tui
+version: 0.9.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/wiki-tui-0.9.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: bf4bc498ea3a929a6d1f0d20748a1cb95f89c5409418bfeaf8c21466e777a06c

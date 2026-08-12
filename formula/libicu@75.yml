@@ -1,0 +1,5 @@
+summary: C/C++ libraries for Unicode and globalization
+webpage: http://site.icu-project.org/home
+version: 75.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libicu-75.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: 8d9792fecb6e0750bc8a2dba0b6d39ae5fba2c29186d8a979b238614c758515f

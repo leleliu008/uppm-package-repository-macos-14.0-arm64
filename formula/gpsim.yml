@@ -1,5 +1,5 @@
 summary: Simulator for Microchip PIC microcontrollers
 webpage: https://gpsim.sourceforge.io/
 version: 0.31.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/gpsim-0.31.0-macos-14.0-arm64.tar.xz
-bin-sha: 6f7e555912fdfc10a81a1e3807957280e9bc50ea8590c04933d2d50e12221ac5
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gpsim-0.31.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 69a00562172e3a2c31e9828017a109f50791b99988f02d73d2c658021f570055

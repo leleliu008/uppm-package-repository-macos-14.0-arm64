@@ -1,0 +1,5 @@
+summary: Convert SVG into PDF, PNG, JPEG or SF Symbol
+webpage: https://github.com/swhitty/SwiftDraw
+version: 0.27.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/swiftdraw-0.27.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 509fc4ecd1373d9acf34008017735059a0c8e26f35969a8ef015b058361c3aed

@@ -1,0 +1,5 @@
+summary: An independent package manager for compiled binaries
+webpage: https://github.com/marwanhawari/stew
+version: 0.6.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/stew-0.6.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 0c3a2d705670a5a7c1a4ef80d0d06ab44c61e47a0af9abbed1c79e79acc6044c

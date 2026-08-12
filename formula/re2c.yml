@@ -1,5 +1,5 @@
-summary: Generate C-based recognizers from regular expressions
+summary: A free and open-source lexer generator for C/C++, Go and Rust with a focus on generating fast code
 webpage: https://re2c.org/
-version: 3.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/re2c-3.1-macos-14.0-arm64.tar.xz
-bin-sha: 6c59dade59a67c25f198f18e91b333a507e2022efd2f982b55e5811a61ad6a99
+version: 4.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/re2c-4.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: 59f5ffc5472d5c6b1bb569cebadce786c413c9ad97b760fbb473bdf07872ac36

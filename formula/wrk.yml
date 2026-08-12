@@ -1,0 +1,5 @@
+summary: A HTTP benchmarking tool
+webpage: https://github.com/wg/wrk
+version: 4.2.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/wrk-4.2.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 7e6734a3878e5cacd06ea64c67c936b8fa6f48183ecf5f0aad756dc57810559b

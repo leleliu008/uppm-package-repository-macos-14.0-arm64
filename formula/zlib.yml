@@ -1,5 +1,5 @@
 summary: A general purpose data compression library
 webpage: https://zlib.net/
-version: 1.3.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/zlib-1.3.1-macos-14.0-arm64.tar.xz
-bin-sha: c102bf58a6227e4570323ca0272add2291dc9429081229b89d7cad6978476f8b
+version: 1.3.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/zlib-1.3.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: e2e83db635f648d6b55778c55aa5219ae57f50d7c59266ccda662c9d4eb19e73

@@ -1,0 +1,5 @@
+summary: C library for jq
+webpage: https://stedolan.github.io/jq
+version: 1.8.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libjq-1.8.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: 389d0d61ebb60979c33e62054873ed012ab8d4351ee8cddcd2cae0ef794d7c0e

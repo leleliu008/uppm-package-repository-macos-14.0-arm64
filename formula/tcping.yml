@@ -1,0 +1,5 @@
+summary: A cross-platform ping program using TCP instead of ICMP
+webpage: https://github.com/pouriyajamshidi/tcping
+version: 2.7.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/tcping-2.7.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: f9713238920dc734050791474c28401501c1f2a231e41cbcb411825734ee30d2

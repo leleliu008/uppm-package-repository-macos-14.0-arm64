@@ -1,0 +1,5 @@
+summary: String internment library
+webpage: https://www.netsurf-browser.org/projects/libwapcaplet/
+version: 0.4.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libwapcaplet-0.4.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: 44f24c092294c73cea4d61cc4b748d5aa092d6dce37615c8af7c96d5f405714a

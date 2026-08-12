@@ -1,0 +1,5 @@
+summary: library for laying out and rendering of text, with an emphasis on internationalization
+webpage: https://www.pango.org/
+version: 1.57.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libpango-1.57.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 33c7c2dc689d3486f67a5f916598d729224eda0a20b7d37167cbb8009f423488

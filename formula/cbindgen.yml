@@ -1,0 +1,5 @@
+summary: Project for generating C bindings from Rust code
+webpage: https://github.com/mozilla/cbindgen
+version: 0.29.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/cbindgen-0.29.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: aefbbfb8b11de346a3fae34cac1bc1490011fcd930cccea2445d1210a506dd0c

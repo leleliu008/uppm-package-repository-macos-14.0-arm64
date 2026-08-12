@@ -1,0 +1,5 @@
+summary: A JavaScript runtime built on top of V8 JavaScript engine
+webpage: https://nodejs.org/
+version: 20.20.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/nodejs-20.20.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 0082533e8379b75ddd35d1ecbabf546e3326356970aab3d882ad66bf732d012e

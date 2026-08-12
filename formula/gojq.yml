@@ -1,0 +1,5 @@
+summary: An implementation of jq in pure golang
+webpage: https://github.com/itchyny/gojq
+version: 0.12.18
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gojq-0.12.18-MacOSX-14.0-arm64.tar.xz
+bin-sha: 574c744b5e4ff294ae2d869eb56bf8fb68a13020111a7d9df70b09af1999136a

@@ -1,0 +1,5 @@
+summary: Lightweight PDF and XPS viewer
+webpage: https://mupdf.com/
+version: 1.27.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/mupdf-1.27.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: ab9cc5d236bdf1b06e35544bd9f39e7e858ed31ed559c6f076f664a462a96438

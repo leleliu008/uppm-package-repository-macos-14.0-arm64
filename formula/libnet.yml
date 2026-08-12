@@ -1,5 +1,5 @@
 summary: C library for creating IP packets
 webpage: https://github.com/libnet/libnet
 version: 1.3
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libnet-1.3-macos-14.0-arm64.tar.xz
-bin-sha: 77fc1d060524cf3b521a6431288255015f16172ecff3a66910500edb69c2bac6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libnet-1.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: e3ce0d1e091ef8509f406fc0d13cfe69f0f81164d8fd7746bd31953cfe32e59c

@@ -1,5 +1,5 @@
 summary: single header utf8 string functions for C and C++
 webpage: https://github.com/sheredom/utf8.h
-version: 2024.06.05
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/utf8.h-2024.06.05-macos-14.0-arm64.tar.xz
-bin-sha: ff4bd471718474602784d0c49f1d5c8d17e398fac9d7485eb24e4cab3840eeef
+version: 2026.08.11
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/utf8.h-2026.08.11-MacOSX-14.0-arm64.tar.xz
+bin-sha: 10c6e0755dea78f42a20890399666aaee55ab0af1e90c2a3bd743cb9c9207ed6

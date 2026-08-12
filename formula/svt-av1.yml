@@ -1,5 +1,5 @@
 summary: AV1 encoder
 webpage: https://gitlab.com/AOMediaCodec/SVT-AV1
 version: 1.6.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/svt-av1-1.6.0-macos-14.0-arm64.tar.xz
-bin-sha: d46b1082422b7e61f03a9f642b3badc5489ea0923ff238a9e217cf149d480314
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/svt-av1-1.6.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: b5c6e2c08fd5a550f5facf6e3b51f31db0041df3735687f0ac6d2f3ddb01c5e9

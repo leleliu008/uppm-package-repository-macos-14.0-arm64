@@ -1,0 +1,5 @@
+summary: A hex viewer, just like xxd or hexdump
+webpage: https://github.com/Arnau478/hevi
+version: 1.1.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/hevi-1.1.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 67c134524cdf1573dd0aec8c7f000b363eb76dea9c67128f2dfe8001576d9970

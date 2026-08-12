@@ -1,5 +1,5 @@
 summary: Helps you navigate your file system faster by learning your habits
 webpage: https://github.com/gsamokovarov/jump
-version: 0.51.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/jump-0.51.0-macos-14.0-arm64.tar.xz
-bin-sha: 71932c097a9af37b950c6e6138ae3ad51eb36e0943f57d8f6b2ab62f60102df7
+version: 0.67.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/jump-0.67.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: d3b86af2e6871dada15dd3ad3187570e6d2910abb31a0559caea833bf620f88a

@@ -1,0 +1,5 @@
+summary: A more modern man page viewer for our terminals
+webpage: https://github.com/plp13/qman
+version: 1.5.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/qman-1.5.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: ae67ef155a1198a947b16e34e7c662fe942c258e53cdf430a86d1bb31022feba

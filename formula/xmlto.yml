@@ -1,5 +1,5 @@
-summary: Convert XML to another format (based on XSL or other tools)
+summary: A command-line tool for converting XML files to various formats
 webpage: https://pagure.io/xmlto/
-version: 0.0.28
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/xmlto-0.0.28-macos-14.0-arm64.tar.xz
-bin-sha: ec835d6326bb3c675e60ae0461f42987dbc5c8d26a9220171ba734a9c5b940e7
+version: 0.0.29
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/xmlto-0.0.29-MacOSX-14.0-arm64.tar.xz
+bin-sha: 72a81b3c9b8d7d0dc334440646e8a50390f520cb8572f9e441dd36d57b7e12f8

@@ -1,0 +1,5 @@
+summary: A collection of command-line tools for interacting with high-throughput sequencing data
+webpage: https://www.htslib.org/
+version: 1.23
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/samtools-1.23-MacOSX-14.0-arm64.tar.xz
+bin-sha: b90762f3c0184633ec34a9d5dc0c14e8df5865c07102669ce3717b5dbb279163

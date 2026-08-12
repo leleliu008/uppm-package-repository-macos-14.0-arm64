@@ -1,0 +1,5 @@
+summary: MirBSD Korn Shell
+webpage: https://mbsd.evolvis.org/mksh.htm
+version: 59c
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/mksh-59c-MacOSX-14.0-arm64.tar.xz
+bin-sha: fcddd03f2d9eccfbd3354fb8e8336c14999ce484d78b7078acab4fba2d8dfd0c

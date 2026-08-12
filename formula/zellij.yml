@@ -1,0 +1,5 @@
+summary: Pluggable terminal workspace, with terminal multiplexer as the base feature
+webpage: https://zellij.dev
+version: 0.43.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/zellij-0.43.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: 9345c4ab11c634acbcc6a05d2cbdb3a6d52e265d5107f0d8736ecab81de77007

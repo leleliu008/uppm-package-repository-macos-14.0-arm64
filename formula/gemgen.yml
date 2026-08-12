@@ -1,0 +1,5 @@
+summary: A command-line tool for converting Commonmark Markdown to Gemtext
+webpage: https://sr.ht/~kota/gemgen/
+version: 0.6.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gemgen-0.6.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 026011888ccdf8ee3c376856d8be494cf66e8b05493de32634f3c21a5f6ab0db

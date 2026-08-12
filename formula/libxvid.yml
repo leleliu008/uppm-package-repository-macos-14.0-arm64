@@ -1,5 +1,5 @@
 summary: A high-performance, high-quality MPEG-4 video library
 webpage: https://www.xvid.com
 version: 1.3.7
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libxvid-1.3.7-macos-14.0-arm64.tar.xz
-bin-sha: 34c04858fef5f3fdfa663337457f87e9bce8ef7abc1dd191cc858e621b8d939b
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libxvid-1.3.7-MacOSX-14.0-arm64.tar.xz
+bin-sha: 58d7a282c63d5d13cd2aa8b7f100f6f792c801f1296429417355fae99bf20712

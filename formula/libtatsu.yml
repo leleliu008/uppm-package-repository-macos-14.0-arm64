@@ -1,0 +1,5 @@
+summary: Library handling the communication with Apple Tatsu Signing Server (TSS)
+webpage: https://libimobiledevice.org/
+version: 1.0.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libtatsu-1.0.5-MacOSX-14.0-arm64.tar.xz
+bin-sha: 3109c83e974df5d54abdabd83f3fb6d95d53a2cac561c643f9ce419d2e070493

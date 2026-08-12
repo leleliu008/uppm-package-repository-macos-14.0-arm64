@@ -1,0 +1,5 @@
+summary: A handy way to save and run project-specific commands
+webpage: https://github.com/casey/just
+version: 1.46.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/just-1.46.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 566bb0cac06bd8ab4a95dfc8d7c2b45b26894f2ce77b3926fdd1cbbb99627f9f

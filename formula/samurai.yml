@@ -1,0 +1,5 @@
+summary: Ninja-compatible build tool written in C
+webpage: https://github.com/michaelforney/samurai
+version: 1.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/samurai-1.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: 88403485bba8e25b365f3aa75b407a11040807627b4cff95c563347be22cc7ca

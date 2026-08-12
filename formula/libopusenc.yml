@@ -1,0 +1,5 @@
+summary: C library for encoding .opus files
+webpage: https://opus-codec.org/
+version: 0.3
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libopusenc-0.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: d27a0385aff3d86392507dd2d6b64f5535426af35981d7a0788cdb178c477c6d

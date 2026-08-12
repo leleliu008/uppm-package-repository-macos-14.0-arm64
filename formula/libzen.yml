@@ -1,5 +1,5 @@
 summary: Unified display of technical and tag data for audio/video
 webpage: https://mediaarea.net/
 version: 0.4.41
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libzen-0.4.41-macos-14.0-arm64.tar.xz
-bin-sha: 2cd4481e82e6480e62aedd2c0a1237d371eefc450a1a7defbdf910df80325f3f
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libzen-0.4.41-MacOSX-14.0-arm64.tar.xz
+bin-sha: adda43e226724e32f7576651e3e0eb649dd61418371acee1569037f0cb7272ab

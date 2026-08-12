@@ -1,0 +1,5 @@
+summary: C++20-like span for C++98, C++11 and later in a single-file header-only library
+webpage: https://github.com/martinmoene/span-lite
+version: 0.11.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/span-lite-0.11.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 5d6fd32b4d81fcf1d8e30875c910a5d6ee0f33aa3e4a851ac565fa4cceb2fdbe

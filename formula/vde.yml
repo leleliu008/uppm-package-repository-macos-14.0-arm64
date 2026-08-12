@@ -1,5 +1,5 @@
 summary: Ethernet compliant virtual network
 webpage: https://github.com/virtualsquare/vde-2
 version: 2.3.3
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/vde-2.3.3-macos-14.0-arm64.tar.xz
-bin-sha: 8f9d0927fbc8ecc7ffe250c67e6a3e51bd0c7c9bc4c183e80b38dc9d79bd6f58
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/vde-2.3.3-MacOSX-14.0-arm64.tar.xz
+bin-sha: f2c069c14bce2f22ce26f11b9016c6688f18e06c8fb31c0106336b1c56422ad0

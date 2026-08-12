@@ -1,0 +1,5 @@
+summary: Language for creating big and scalable GraphQL server-side schemas
+webpage: https://gabotechs.github.io/graphqxl
+version: 0.40.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/graphqxl-0.40.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 152876a1d94cb2870dfe3085af00c8b8c838e0a1235e8b9caa4860765a0a4e7b

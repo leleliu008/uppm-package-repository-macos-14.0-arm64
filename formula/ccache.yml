@@ -1,5 +1,5 @@
-summary: Object-file caching compiler wrapper
+summary: A compiler wrapper to speed up recompilation by caching previous compilations and detecting when the same compilation is being done again
 webpage: https://ccache.dev
-version: 4.9.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/ccache-4.9.1-macos-14.0-arm64.tar.xz
-bin-sha: 6cb742b2eb681648cc2dc4356e6114896e0c6a3ddca36fbcb972cb7b60775ef1
+version: 4.12.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/ccache-4.12.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 21786dee372b59b3d582b47a6897898e8943fd8f4de01c575bb0e4f92c5f9f6b

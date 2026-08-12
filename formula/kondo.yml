@@ -1,0 +1,5 @@
+summary: Save disk space by cleaning non-essential files from software projects
+webpage: https://github.com/tbillington/kondo
+version: 0.8
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/kondo-0.8-MacOSX-14.0-arm64.tar.xz
+bin-sha: 98c321549fa800f86ff8bca230f463049e27eeea0faecf137c8191c110cd041f

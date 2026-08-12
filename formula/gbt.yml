@@ -1,5 +1,5 @@
 summary: Highly configurable prompt builder for Bash and ZSH written in Go
 webpage: https://github.com/jtyr/gbt
-version: 2.0.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/gbt-2.0.0-macos-14.0-arm64.tar.xz
-bin-sha: 9f35356905898fb93296e5b2a627f9758ea41f08e68ddf017a093648cbcb810f
+version: 2.0.0.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gbt-2.0.0.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: 5e253292899d014e52fd28367fa1e40d9397ee0b197f5fc8a3c7603c4e8fa23b

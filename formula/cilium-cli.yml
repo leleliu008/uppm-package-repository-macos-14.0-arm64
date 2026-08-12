@@ -1,0 +1,5 @@
+summary: CLI to install, manage & troubleshoot Kubernetes clusters running Cilium
+webpage: https://cilium.io
+version: 0.19.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/cilium-cli-0.19.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 611b074d07972b094de18bce0c8f59af86d08341a89d43197e8e2443d69365be

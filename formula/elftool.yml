@@ -1,0 +1,5 @@
+summary: A command-line tool to manipulate ELF files
+webpage: https://github.com/leleliu008/elftool
+version: 2026.08.11
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/elftool-2026.08.11-MacOSX-14.0-arm64.tar.xz
+bin-sha: eaf3c22516c2b18761f47f0e7533f2c5999bec77bafc25631a5bd8a31f08289f

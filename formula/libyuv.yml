@@ -1,5 +1,5 @@
 summary: C library includes YUV conversion and scaling functionality
 webpage: https://chromium.googlesource.com/libyuv/libyuv
 version: 1788
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libyuv-1788-macos-14.0-arm64.tar.xz
-bin-sha: f7f563879b4d9ccf30010f3eb85b16bc13db53da90ae95cbd7f64c1a7e3ccc0e
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libyuv-1788-MacOSX-14.0-arm64.tar.xz
+bin-sha: e55cd60a8519a4c88a595bb79791b0190504bf801b2defa06f652cb3bd2ab531

@@ -1,0 +1,5 @@
+summary: Skia Color Management System
+webpage: https://skia.googlesource.com/skcms
+version: 2025.09.16
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libskcms-2025.09.16-MacOSX-14.0-arm64.tar.xz
+bin-sha: 33b569d7ade2462e8b286db576224cec209905661153e62472b5b65d8c7659b5

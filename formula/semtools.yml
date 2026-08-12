@@ -1,0 +1,5 @@
+summary: A collection of high-performance CLI tools for document processing and semantic search
+webpage: https://github.com/run-llama/semtools
+version: 2.0.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/semtools-2.0.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 09d92630122cf6a71ebff56b19ca75b010fcbaadc6e4c0b341596ef641775aae

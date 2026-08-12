@@ -1,0 +1,5 @@
+summary: An industrial-strength functional programming language with an emphasis on expressiveness and safety
+webpage: https://ocaml.org/
+version: 5.4.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/ocaml-5.4.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: da0c1d1c1762f58bb0d7f8f1318ab799c7158ed45fc3517f65371b0ec4bcf46d

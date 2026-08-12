@@ -1,5 +1,5 @@
 summary: Network IDS, IPS, and security monitoring engine
 webpage: https://suricata-ids.org
 version: 7.0.5
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/suricata-7.0.5-macos-14.0-arm64.tar.xz
-bin-sha: 7da403a580283c70e248b4921db68c93ab9e50122769f645e6a2b639925e51fd
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/suricata-7.0.5-MacOSX-14.0-arm64.tar.xz
+bin-sha: ab8a688f195dcfedc35a5c4ece6b8340ec843d61086e78026a340e01c95110d4

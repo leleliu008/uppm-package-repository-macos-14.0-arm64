@@ -1,5 +1,5 @@
 summary: Hybrid lossless audio compression
 webpage: https://www.wavpack.com/
 version: 5.7.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libwavpack-5.7.0-macos-14.0-arm64.tar.xz
-bin-sha: 1437fea775fcb034885fb5fe33778fa202f14772d50a9a00622b3dce0a67aa79
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libwavpack-5.7.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: e9a5cd3a03db84605673a59b3308aaf0f0b2a7136e2a41ff79175f2b616d841f

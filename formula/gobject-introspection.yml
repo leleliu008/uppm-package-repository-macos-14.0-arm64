@@ -1,5 +1,5 @@
-summary: Generate introspection data for GObject libraries
+summary: A middleware layer between C libraries (using GObject) and language bindings
 webpage: https://gi.readthedocs.io
-version: 1.76.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/gobject-introspection-1.76.1-macos-14.0-arm64.tar.xz
-bin-sha: 75986767be6eb962ff3ed184e8d46287d5120535d9e10b8a6811dcaf445d3475
+version: 1.86.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gobject-introspection-1.86.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: da0a8ff79dba552f4a89ca7c6a25db4c742527ca954986bcc03402d79c0383a1

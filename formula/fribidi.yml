@@ -1,5 +1,5 @@
-summary: Implementation of the Unicode BiDi algorithm
+summary: A command-line interface to the libfribidi library and can be used to convert a logical string to visual output
 webpage: https://github.com/fribidi/fribidi
-version: 1.0.14
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/fribidi-1.0.14-macos-14.0-arm64.tar.xz
-bin-sha: 535123c1ce3920335eaeac6d0c0c5d901da64203e8b14bc478db868adb5e40a2
+version: 1.0.16
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/fribidi-1.0.16-MacOSX-14.0-arm64.tar.xz
+bin-sha: 7309e7af8c5080969aa59de51553d9abba491a75eaf30593fe4d58df16bf8802

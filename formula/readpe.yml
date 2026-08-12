@@ -1,0 +1,5 @@
+summary: A command-line tool to analyze Portable Executables
+webpage: https://github.com/mentebinaria/readpe
+version: 0.84
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/readpe-0.84-MacOSX-14.0-arm64.tar.xz
+bin-sha: 9aff8bb5ae29ecfb0beb345181237b724cc379954ea17265f6f1a1c1e8aa1888

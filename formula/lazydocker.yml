@@ -1,0 +1,5 @@
+summary: A simple terminal UI for both docker and docker-compose
+webpage: https://github.com/jesseduffield/lazydocker
+version: 0.24.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/lazydocker-0.24.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: 358cd92db0d47d38628c51821037f7e2109b8a2f7036e863605b8b0db6ecb852

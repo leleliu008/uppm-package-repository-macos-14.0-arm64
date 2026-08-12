@@ -1,0 +1,5 @@
+summary: C library to read, create and modify ELF binary files
+webpage: https://manpath.be/osol9/3lib/libelf
+version: 0.8.13
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libelf-0.8.13-MacOSX-14.0-arm64.tar.xz
+bin-sha: b8aeafee943b35e1893a8ead9ba4af63ec643802abe629e82e9d95b677c48f73

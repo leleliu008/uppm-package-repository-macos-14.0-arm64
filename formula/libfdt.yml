@@ -1,5 +1,5 @@
-summary: Device tree compiler
+summary: C library for parsing and manipulating device tree data structures
 webpage: https://git.kernel.org/pub/scm/utils/dtc/dtc.git
-version: 1.7.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libfdt-1.7.0-macos-14.0-arm64.tar.xz
-bin-sha: 03feb1ffc1bab35ef56406ae70473318583de3b151ddb7d847e705fcb55bcf75
+version: 1.7.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libfdt-1.7.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 8052b66e18ecf25f0bfb2951df692bf4aee8dc8cf0c1d6b216fc44a56739807f

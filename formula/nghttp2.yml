@@ -1,5 +1,5 @@
 summary: HTTP/2 C Library
 webpage: https://nghttp2.org/
-version: 1.61.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/nghttp2-1.61.0-macos-14.0-arm64.tar.xz
-bin-sha: fe853147b66358ba9a9536cbc10a1382dfd89b23bc75f6697a31ece91d9a4f90
+version: 1.68.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/nghttp2-1.68.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 185f2afc403e864fd8dc5735c5be14b1cc8f24a0872cf7472c64ed31dec72fc5

@@ -1,0 +1,5 @@
+summary: A high-performance, extensible alternative to ls
+webpage: https://github.com/chaqchase/lla
+version: 0.5.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/lla-0.5.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: a91e160a1378bbaaf2b096c4aa376ce51e8e50a762158f6b9290fb141fb7d398

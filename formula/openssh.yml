@@ -1,5 +1,5 @@
 summary: OpenBSD freely-licensed SSH connectivity tools
 webpage: https://www.openssh.com/
-version: 9.7.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/openssh-9.7.1-macos-14.0-arm64.tar.xz
-bin-sha: d5e3dea0960f9bdbd4b73b87466887c81aa6ab47817d812f45c04536d1ac38ce
+version: 9.9.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/openssh-9.9.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 03f4ec0ec8263151ee68668ab9c0751a9b204f5e354d8fe60766f51eb54c584d

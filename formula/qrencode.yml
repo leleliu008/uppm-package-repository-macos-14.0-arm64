@@ -1,5 +1,5 @@
-summary: QR Code generation
+summary: A command-line tool for QR Code generation
 webpage: https://fukuchi.org/works/qrencode
 version: 4.1.1
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/qrencode-4.1.1-macos-14.0-arm64.tar.xz
-bin-sha: 49d3e9ae3d9396bfd76458fff75c0264c278b01f09726d779633e435f81c1e17
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/qrencode-4.1.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: aa4dd52f84960860dae1c0065344d10e948be5fae31f9d86933681f6412a541f

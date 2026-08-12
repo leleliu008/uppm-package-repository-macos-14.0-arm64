@@ -1,0 +1,5 @@
+summary: GNU implementation of time utility
+webpage: https://www.gnu.org/software/time
+version: 1.9
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/gtime-1.9-MacOSX-14.0-arm64.tar.xz
+bin-sha: c66b5f8354e730e1d424c9087e809c541d1b55562b342de2f7298c661f83dec7

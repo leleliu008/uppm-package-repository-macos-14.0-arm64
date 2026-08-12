@@ -1,0 +1,5 @@
+summary: A collection of utilities able to process any combination of compressed and uncompressed files transparently
+webpage: https://www.nongnu.org/zutils/zutils.html
+version: 1.15
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/zutils-1.15-MacOSX-14.0-arm64.tar.xz
+bin-sha: 5cdd05aff10156b301b8c7e168539bce3c486dccd622cf50d008ffed6ed4bd93

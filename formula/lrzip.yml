@@ -1,5 +1,5 @@
 summary: Compression program with a very high compression ratio
 webpage: http://lrzip.kolivas.org
 version: 0.651
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/lrzip-0.651-macos-14.0-arm64.tar.xz
-bin-sha: 119c910931d15425fdc76f713914b8557be40efac0b1e0ceae965ccf5f7ecaad
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/lrzip-0.651-MacOSX-14.0-arm64.tar.xz
+bin-sha: ac5fb5eb6dc42d45bee63dfcf964f04cffdcaecb9ae5be99f54dd82de08d6c3a

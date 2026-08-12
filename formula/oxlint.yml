@@ -1,0 +1,5 @@
+summary: A suite of high-performance tools for JavaScript and TypeScript written in Rust
+webpage: https://oxc.rs/
+version: 1.56.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/oxlint-1.56.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: c263196f3deb9f31b3c0db92b37de1eb9066d23acadd7eafa273cc1c0fef9887

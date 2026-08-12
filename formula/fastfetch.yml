@@ -1,0 +1,5 @@
+summary: A neofetch-like tool for fetching system information and displaying it prettily
+webpage: https://github.com/fastfetch-cli/fastfetch
+version: 2.58.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/fastfetch-2.58.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 1d30af69a23971671dae367f82d34fd55bb96fffa68aecf7b9913c14752db55d

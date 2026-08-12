@@ -1,5 +1,5 @@
 summary: A disk usage analyzer with an ncurses interface
 webpage: https://dev.yorhel.nl/ncdu
-version: 2.4
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/ncdu-2.4-macos-14.0-arm64.tar.xz
-bin-sha: 2bfbcd47702a45bfbba7c8efabec3ef7c8a5592f68194153e36360ec39c173bd
+version: 2.9.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/ncdu-2.9.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 338c0a038f9b32177d0a223b29987f0ac1dc530e839afa7e5a6a761dd19a026e

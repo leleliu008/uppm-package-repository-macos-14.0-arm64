@@ -1,0 +1,5 @@
+summary: Simplified-traditional Chinese conversion tool
+webpage: https://github.com/BYVoid/OpenCC
+version: 1.2.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/opencc-1.2.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: c662fe99c39f9e895fb4cecf9131fdf2f143e8930b7707abe358699aeb1fad6c

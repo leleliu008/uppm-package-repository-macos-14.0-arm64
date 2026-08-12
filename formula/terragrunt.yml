@@ -1,5 +1,5 @@
 summary: Thin wrapper for Terraform e.g. for locking state
 webpage: https://terragrunt.gruntwork.io/
 version: 0.58.12
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/terragrunt-0.58.12-macos-14.0-arm64.tar.xz
-bin-sha: d28018174951692f557bdadae630aeb6060dfc4c3fbbe2d390f2e0b87071bb51
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/terragrunt-0.58.12-MacOSX-14.0-arm64.tar.xz
+bin-sha: 942425be5434299863f7312189f6fbe03065be2566568d8ec81a04ea5f7d8977

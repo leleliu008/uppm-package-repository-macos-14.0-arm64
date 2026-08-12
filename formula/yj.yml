@@ -1,0 +1,5 @@
+summary: CLI to convert between YAML, TOML, JSON and HCL
+webpage: https://github.com/sclevine/yj
+version: 5.1.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/yj-5.1.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 7184b3d7d0d3f2fad0e111297484f2a61b5ca7785346725a70ea3a6e05a3394a

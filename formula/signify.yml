@@ -1,0 +1,5 @@
+summary: Cryptographically sign and verify files
+webpage: https://github.com/jpouellet/signify-osx
+version: 1.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/signify-1.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: cc498ab8b43f0731009aa5139f7834135addabe088c75ea703c21f1df680feea

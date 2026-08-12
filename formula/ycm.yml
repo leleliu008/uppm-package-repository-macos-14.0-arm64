@@ -1,0 +1,5 @@
+summary: A code-completion engine for Vim
+webpage: https://github.com/ycm-core/YouCompleteMe
+version: 2026.08.11
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/ycm-2026.08.11-MacOSX-14.0-arm64.tar.xz
+bin-sha: b9eb7eaef84498c9204b39483369a3a3cfbe393ff6891822849a799e141a9b31

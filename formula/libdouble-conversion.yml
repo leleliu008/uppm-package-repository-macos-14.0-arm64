@@ -1,0 +1,5 @@
+summary: Binary-decimal and decimal-binary routines for IEEE doubles
+webpage: https://github.com/google/double-conversion
+version: 3.4.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libdouble-conversion-3.4.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 56dc6596526a17f4e5fb484c973913241ef0b678d23eb02c6168f0a77f370867

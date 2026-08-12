@@ -1,0 +1,5 @@
+summary: An Open Source Implementation of the Actor Model in C++
+webpage: https://www.actor-framework.org/
+version: 1.1.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libcaf-1.1.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 8210acbcbc21476d6a847d2124588fe0b9f26026acb28e0b5115aa365460d309

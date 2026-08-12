@@ -1,0 +1,5 @@
+summary: Library for weighted finite-state transducers
+webpage: https://www.openfst.org/twiki/bin/view/FST/WebHome
+version: 1.8.4
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/openfst-1.8.4-MacOSX-14.0-arm64.tar.xz
+bin-sha: b3aa4deffc921edebaad0c98fe223ca267962e38163acd5946d1b807493a1a93

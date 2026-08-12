@@ -1,5 +1,5 @@
 summary: Heavily optimized DEFLATE/zlib/gzip compression and decompression
 webpage: https://github.com/ebiggers/libdeflate
-version: 1.20
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libdeflate-1.20-macos-14.0-arm64.tar.xz
-bin-sha: 0bbb2cdf579833b28931fe36d64fd65ec7d674ec1e0a3dbc6dbd98c2f2dac2c8
+version: 1.25
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libdeflate-1.25-MacOSX-14.0-arm64.tar.xz
+bin-sha: 4f56aa7719acac8d12fc58c9e12c450d037d1bf7b51e36dceae056cdfab9e61f

@@ -1,5 +1,5 @@
 summary: A secure, fast, compliant, and very flexible web server that has been optimized for high-performance environments
 webpage: https://www.lighttpd.net/
-version: 1.4.76
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/lighttpd-1.4.76-macos-14.0-arm64.tar.xz
-bin-sha: 72586c26509c322aa4c97f1afc85861e038269767c364af54360325cd4eecd17
+version: 1.4.82
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/lighttpd-1.4.82-MacOSX-14.0-arm64.tar.xz
+bin-sha: 58a61b389f8874ca39e9ee8a2f250b90bbde5fd895a8ad5866850d910046e695

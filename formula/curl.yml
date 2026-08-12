@@ -1,5 +1,5 @@
-summary: Get a file from an HTTP, HTTPS or FTP server
+summary: A command-line tool for transferring data from/to an HTTP, HTTPS or FTP server
 webpage: https://curl.haxx.se/
-version: 8.8.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/curl-8.8.0-macos-14.0-arm64.tar.xz
-bin-sha: c901955d4ebb23a965518269316b5f68cd6db9d7b553e97baac02aff4f9e8456
+version: 8.18.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/curl-8.18.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 51944e08345611f7d96590572e7caafb28ffe879b8842fc3514bd6fe56b579f3

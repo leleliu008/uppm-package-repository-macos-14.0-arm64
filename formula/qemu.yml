@@ -1,5 +1,5 @@
-summary: Emulator for x86 and PowerPC
+summary: A generic and open source machine & userspace emulator and virtualizer
 webpage: https://www.qemu.org/
-version: 9.0.0
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/qemu-9.0.0-macos-14.0-arm64.tar.xz
-bin-sha: 3ea2f628bb21789e3d9a0b5bdd3740f67e2a0f2333c6fd8c0bcbd3e4cd175e07
+version: 10.2.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/qemu-10.2.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 40f1cfc986e133e5e25ef660b8d93e06b99b2b7e00fb26d8631723c3d82c6b3e

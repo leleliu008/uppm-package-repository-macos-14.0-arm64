@@ -1,5 +1,5 @@
 summary: Wrapper around ripgrep that adds multiple rich file types
 webpage: https://github.com/phiresky/ripgrep-all
-version: 0.10.6
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/ripgrep-all-0.10.6-macos-14.0-arm64.tar.xz
-bin-sha: fa2b25df189a43a098f1b74e1c89d8bbf861171bd36545058301eee98b332e83
+version: 0.10.10
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/ripgrep-all-0.10.10-MacOSX-14.0-arm64.tar.xz
+bin-sha: 90e83a05a48056060d6c43ee1bc1dc4fbd0c004f8f63dac21297aa85d00b341c

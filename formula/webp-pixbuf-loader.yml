@@ -1,0 +1,5 @@
+summary: WebP Image format GdkPixbuf loader
+webpage: https://github.com/aruiz/webp-pixbuf-loader
+version: 0.2.7
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/webp-pixbuf-loader-0.2.7-MacOSX-14.0-arm64.tar.xz
+bin-sha: 7daa60768c290f5ce5877ed985c74bded1f2cedff0c07f7362ed6091d5e54b7f

@@ -1,0 +1,5 @@
+summary: library to convert all kinds of images to ANSI/Unicode characters
+webpage: https://hpjansson.org/chafa/
+version: 1.18.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libchafa-1.18.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 238f19da8cc24280b820710f813b45a8b0bd4a9d266d4b4f93c95f9e39564877

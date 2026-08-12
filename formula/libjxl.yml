@@ -1,5 +1,5 @@
-summary: New file format for still image compression
+summary: A reference implementation of JPEG XL image format (encoder and decoder)
 webpage: https://jpeg.org/jpegxl/index.html
-version: 0.10.2
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libjxl-0.10.2-macos-14.0-arm64.tar.xz
-bin-sha: cac18e3756a08ed34ff00ebb09a387e451511dd5992dfcd9a71b3d20d6fbcb2a
+version: 0.11.1
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libjxl-0.11.1-MacOSX-14.0-arm64.tar.xz
+bin-sha: bff694c80a47f7120520059968dadc155a86f0b0a5a0ecf954a8f7498bdda97d

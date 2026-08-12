@@ -1,0 +1,5 @@
+summary: TUI for logs from journalctl, file system, Docker, Podman and Kubernetes pods
+webpage: https://github.com/Lifailon/lazyjournal
+version: 0.8.5
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/lazyjournal-0.8.5-MacOSX-14.0-arm64.tar.xz
+bin-sha: 84c58a18b9752b5f9c811658af52f46aca62257fcf0b7d7603ee160f132afb12

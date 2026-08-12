@@ -1,0 +1,5 @@
+summary: X.Org Interface to the X Window System protocol
+webpage: https://www.x.org/
+version: 1.17.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libxcb-1.17.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: ed4c0b2617633626be6f9ff3a06afb2b43320d299c18c36d7bf891d2bea6549f

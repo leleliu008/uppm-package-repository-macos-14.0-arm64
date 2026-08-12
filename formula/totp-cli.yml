@@ -1,0 +1,5 @@
+summary: Authy/Google Authenticator like TOTP CLI tool written in Go
+webpage: https://yitsushi.github.io/totp-cli/
+version: 1.9.2
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/totp-cli-1.9.2-MacOSX-14.0-arm64.tar.xz
+bin-sha: 5295e7866f64946c7ed27ca9358faffae03f08d7de130073e585b19d74b82091

@@ -1,5 +1,5 @@
 summary: Compact general purpose allocator
 webpage: https://github.com/microsoft/mimalloc
 version: 2.1.7
-bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2024.06.06/libmimalloc-2.1.7-macos-14.0-arm64.tar.xz
-bin-sha: 0041ec3935a47befd6aff4784296ac9745a233048bd539b746b82ac807613854
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/libmimalloc-2.1.7-MacOSX-14.0-arm64.tar.xz
+bin-sha: d799f03b6a88b2edeef25664411b9130772722f002cef7df371ba91008b03914

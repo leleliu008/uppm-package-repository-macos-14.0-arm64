@@ -1,0 +1,5 @@
+summary: Utility to optimize JPEG files
+webpage: https://github.com/tjko/jpegoptim
+version: 1.5.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/jpegoptim-1.5.6-MacOSX-14.0-arm64.tar.xz
+bin-sha: cb5c2c9c0a9fdd5d943a34dd73b96c5f5b99e02f3604ed52042b3947b45705f7

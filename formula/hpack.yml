@@ -1,0 +1,5 @@
+summary: A modern format for Haskell packages
+webpage: https://github.com/sol/hpack
+version: 0.38.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/hpack-0.38.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: a1d9fd423d6e6f5992a57f37265ba1583cc4be8453083e2beb5d181d64c40e0c

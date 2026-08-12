@@ -1,0 +1,5 @@
+summary: An interpreter for PostScript and PDF
+webpage: https://www.ghostscript.com/
+version: 10.06.0
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.1/ghostscript-dev-10.06.0-MacOSX-14.0-arm64.tar.xz
+bin-sha: 3f10536cde5bef0a73453cf2c0316cc585573fe1bd8a05dc13ff146d419acd5d

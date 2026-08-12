@@ -1,0 +1,5 @@
+summary: Pager/text based browser
+webpage: https://w3m.sourceforge.net/
+version: 0.5.6
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/w3m-0.5.6-MacOSX-14.0-arm64.tar.xz
+bin-sha: 5b912697cb858e2f50fffb4daec84e8e4e7174283cf9da339d1b5e356333a2fa

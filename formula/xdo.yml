@@ -1,0 +1,5 @@
+summary: A command-line tool to perform elementary actions on your X windows
+webpage: https://github.com/baskerville/xdo
+version: 0.5.7
+bin-url: https://github.com/leleliu008/uppm-package-repository-macos-14.0-arm64/releases/download/2026.08.12.2/xdo-0.5.7-MacOSX-14.0-arm64.tar.xz
+bin-sha: 86a5e15cbebe3bbd9d36926318eff5f3838284d94ed11e22d239e2c5e574c2db
